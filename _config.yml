@@ -5,6 +5,8 @@ defaults:
       path: "assets/img"
     values:
       image: true
-      
-gem 'jekyll-paginate'
+
+plugins:
+  - jekyll-paginate
+
 paginate: 5
