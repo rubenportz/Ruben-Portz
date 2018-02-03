@@ -8,5 +8,37 @@ defaults:
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
 
-paginate: 5
+name: Ruben Portz
+
+description: Technical Marketer and Growth Hacker from the Netherlands
+# Enter  Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
+# Website URL 
+# Used for Sitemap.xml and  RSS feed
+url: rubenportz.com
+
+permalink: /:title/
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded 
+
+gems:
+  - jekyll-sitemap 
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
