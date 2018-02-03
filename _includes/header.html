@@ -1,1 +1,70 @@
+<style type="text/css">
+* {box-sizing: border-box;}
+.wrapper-head {
+  max-width: 75%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  margin-top:20px;
+}
+
+.wrapper-head > div {
+  padding: 1em;
+  color: #d9480f;
+}.wrapper-head {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.header-logo {
+  grid-column: 1 / 1;
+  grid-row: 1;
+}
+.blog-menu { 
+  grid-column: 7/7;
+  grid-row: 1;
+}
+.growth-hacks-menu {
+  grid-column: 8/9;
+  grid-row: 1;
+}
+.contact-menu {
+  grid-column: 10/10;
+  grid-row: 1;
+  background-color:#c1d120;
+  height:44px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.contact-menu:hover{
+    background-color: #a0ad20;
+}
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+</style>
+
+<header>
+
+<div class="wrapper-head">
+  <div class="header-logo"><img src="/assets/img/logo.png" alt="Ruben Portz Logo" style="width:250px"></div>
+  <div class="blog-menu"><a href="/blog">Blog</a></div>
+  <div class="growth-hacks-menu"><a href="/Growth-hacks">Growth Hacks</a></div>
+  <div class="contact-menu"><a href="/Growth-hacks">Contact</a></div>
+  
+</header>
+
+
 
