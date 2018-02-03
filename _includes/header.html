@@ -1,6 +1,13 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 
   * {box-sizing: border-box;}
+@media (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /*The width is 100%, when the viewport is 800px or smaller*/
+  }
+} 
+
 .wrapper-head {
   max-width: 1400px;
   max-width: 75%;
@@ -59,10 +66,10 @@ a:visited {
   
 </style>
 
-<header>
+<header> 
 
 <div class="wrapper-head">
-  <div class="header-logo"><img src="/assets/img/logo.png" alt="Ruben Portz Logo" style="width:250px"></div>
+  <div class="header-logo"><img src="/assets/img/logo.png" alt="Ruben Portz Logo" style="max-width:250px;height:auto;"></div>
   <div class="blog-menu"><a href="/blog">Blog</a></div>
   <div class="growth-tips-menu"><a href="/Growth-tips">Growth Tips</a></div>
   <div class="contact-menu"><a href="/Growth-hacks">Contact</a></div>
