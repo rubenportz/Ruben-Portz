@@ -6,7 +6,15 @@ defaults:
     values:
       image: true
 
-plugins:
-  - jekyll-paginate
+
+name: "Ruben Portz Blog"
+description: ""
+ 
+url: "rubenportz.com"
+ 
+paginate: 10
+ 
+markdown: rdiscount
+permalink: pretty
   
  
