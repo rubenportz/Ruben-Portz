@@ -1,4 +1,4 @@
-theme: mdl-jekyll
+theme: jekyll-theme-slate
 
 defaults:
   - scope:
