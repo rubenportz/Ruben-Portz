@@ -27,6 +27,12 @@
 		    <p>{{ post.date | date: "%b %d, %Y" }} {% include read_time.html %} </p>
 		{% endfor %} 		    
     </div>
+	  
+	  {% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
 
 {% include footer.html %}  
 	  	  
