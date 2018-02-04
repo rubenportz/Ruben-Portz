@@ -9,6 +9,4 @@ defaults:
 plugins:
   - jekyll-paginate
   
-  
-gems:
-  - jekyll-time-to-read
+ 
