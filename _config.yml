@@ -1,20 +1,7 @@
-theme: minimal-mistakes-jekyll
-
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
-
-
-name: "Ruben Portz Blog"
-description: ""
- 
-url: "rubenportz.com"
- 
-paginate: 10
- 
-markdown: rdiscount
-permalink: pretty
   
  
