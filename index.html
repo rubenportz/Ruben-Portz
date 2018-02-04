@@ -21,18 +21,19 @@ layout: default
 
   <body>
     <div class="container">
+	    
+				  <div>
+		  {% for post in site.posts limit: 2 %}
+		     <h2><a href="{{ post.url }}">{{ post.title }}</a> </h2>
+		  {% endfor %}
+		</div>
+		<div>
+		  {% for post in site.posts limit: 2 offset: 2 %}
+		    <h2> <a href="{{ post.url }}">{{ post.title }}</a> </h2>
+		  {% endfor %}
+		</div>
+	    
 	    {% for post in site.posts %}
-		  {% assign loopindex = forloop.index | modulo: 2 %}
-		  {% if loopindex == 1 %}
-		    <div>
-		       <h2><a href="{{ post.url }}">{{ post.title }}</a> </h2>
-		  {% else %}
-		       <h2><a href="{{ post.url }}">{{ post.title }}</a> </h2>
-		    </div>
-		  {% endif %}
-		{% endfor %}
-	    
-	    
 	    <div style="display: grid;  grid-template-columns: repeat(3, 1fr);grid-template-areas:"h2 h2 h2" ">
 		{% for post in site.posts %}
 		    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
