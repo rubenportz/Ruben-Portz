@@ -1,3 +1,5 @@
+theme: mdl-jekyll
+
 defaults:
   - scope:
       path: "assets/img"
