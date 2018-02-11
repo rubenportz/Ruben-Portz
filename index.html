@@ -1,24 +1,8 @@
 ---
-
+layout: default
 ---
 <!DOCTYPE html>
-<html>
-	
-  <head>
-  <title>Growth Marketing Blog from Ruben Portz</title> 
-    <style>
-      .container {
-        max-width: 1400px;
-        max-width: 75%;
-        margin: 0 auto;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-    </style>
-   {% include header.html %}  
-  </head>
-	
-	
-	
+<html>	
   <body>
     <div class="container" style="display: grid;  grid-template-columns: repeat(3, 1fr); ">
 	   	{% for post in site.posts %}
@@ -27,10 +11,5 @@
 		    <p>{{ post.date | date: "%b %d, %Y" }} {% include read_time.html %} </p>
 		{% endfor %} 		    
     </div>
-	
-
-{% include footer.html %}  
-	  	  
-  </body>
-	
+  </body>	
 </html>
