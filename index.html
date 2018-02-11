@@ -5,7 +5,7 @@ layout: default
 <html>	
   <body>
     <div class="container">
-	   	{% for post in site.posts %}
+	   	{% for post in site.posts limit:3 %}
 		    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		    <p>{{ post.content | strip_html | truncatewords:20 }}</p>
 		    <p>{{ post.date | date: "%b %d, %Y" }} {% include read_time.html %} </p>
