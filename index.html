@@ -53,45 +53,42 @@ li {
 	
   <body>
     <div class="container">
-	   
-	
-		<ul>
-	   	{% for post in site.posts limit:4 %}
-		<li>
-		    <a href="{{ post.url }}">
-			<h2>{{ post.title }}</h2>
-		  	<p>{{ post.content | strip_html | truncatewords:28 }}</p>
-		    	<p class="readtime">{{ post.content | number_of_words | divided_by: 180 | plus: 1 | append: " minute read" }}</p>
-		    </a>
-		</li>
-		{% endfor %} 	
+	   	<ul>
+			{% for post in site.posts limit:4 %}
+				<li>
+				    <a href="{{ post.url }}">
+					<h2>{{ post.title }}</h2>
+					<p>{{ post.content | strip_html | truncatewords:28 }}</p>
+					<p class="readtime">{{ post.content | number_of_words | divided_by: 180 | plus: 1 | append: " minute read" }}</p>
+				    </a>
+				</li>
+			{% endfor %} 	
 		</ul>
-	
-	       </div>
+    </div>
 	  
 <div class="logo100">	  
-  <div class="logo">
-  <div class="logo1">
-  <a href="https://www.sprout.nl/lijsten/25-onder-de-25-van-2017/jeteight">
-  <img border="0" alt="Ruben Portz Top 25 Under 25 Dutch Entrepreneur" src="/images/sprout-logo.png">		
-  </a>
-  </div>
-  <div class="logo2">
-  <a href="https://www.ft.com/content/7c5e11ea-868c-11e7-8bb1-5ba57d47eff7">
-  <img border="0" alt="Berlin: start-up capital’s appeal growing" src="/images/ft-logo.png">		
-  </a>
-  </div>
-  <div class="logo3">
-  <a href="http://www.usaweekly.com/2018/01/social-media-expert-ruben-portz-shares-tips-on-social-media-marketing-in-2018/">
-  <img border="0" alt="Social Media Expert Ruben Portz Shares Tips on Social Media Marketing in 2018" src="/images/usa-weekly-logo.png">		
-  </a>
-  </div>
-  <div class="logo4">
-  <a href="https://siliconcanals.nl/news/startups/travel-mobility/jeteight-uber-for-private-jets/">
-  <img border="0" alt="This Berlin-based startup founded by a young Dutchman wants to become the “Uber for private jets”" src="/images/silicon-canals-logo.png">		
-  </a>
-  </div>
-</div>
+  	<div class="logo">
+		  <div class="logo1">
+		  <a href="https://www.sprout.nl/lijsten/25-onder-de-25-van-2017/jeteight">
+		  <img border="0" alt="Ruben Portz Top 25 Under 25 Dutch Entrepreneur" src="/images/sprout-logo.png">		
+		  </a>
+		  </div>
+		  <div class="logo2">
+		  <a href="https://www.ft.com/content/7c5e11ea-868c-11e7-8bb1-5ba57d47eff7">
+		  <img border="0" alt="Berlin: start-up capital’s appeal growing" src="/images/ft-logo.png">		
+		  </a>
+		  </div>
+		  <div class="logo3">
+		  <a href="http://www.usaweekly.com/2018/01/social-media-expert-ruben-portz-shares-tips-on-social-media-marketing-in-2018/">
+		  <img border="0" alt="Social Media Expert Ruben Portz Shares Tips on Social Media Marketing in 2018" src="/images/usa-weekly-logo.png">		
+		  </a>
+		  </div>
+		  <div class="logo4">
+		  <a href="https://siliconcanals.nl/news/startups/travel-mobility/jeteight-uber-for-private-jets/">
+		  <img border="0" alt="This Berlin-based startup founded by a young Dutchman wants to become the “Uber for private jets”" src="/images/silicon-canals-logo.png">		
+		  </a>
+		  </div>
+	</div>
 </div>
 	
 	   
