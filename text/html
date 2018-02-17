@@ -1,0 +1,94 @@
+<html>
+<style>
+<div class="carousel-wrap">
+  <div class="owl-carousel">
+    <div class="item">
+     <div class="topic">Topic<br><br></div>
+     Growth</div>
+    <div class="item">
+    <div class="topic">Topic<br><br></div>
+     Email Marketing</div>
+    <div class="item">
+     <div class="topic">Topic<br><br></div>
+     Growth</div>
+    <div class="item">
+     <div class="topic">Topic<br><br></div>
+     SEO</div>
+    <div class="item">
+     <div class="topic">Topic<br><br></div>
+     PPC</div>
+    <div class="item">
+     <div class="topic">Topic<br><br></div>
+     Growth</div>
+  </div>
+</div>
+</style>
+<body>
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 740px;
+  position: relative;
+  
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+  text-align:center;
+  padding-top: 40px;
+  background-color:#2D3236;
+  height:90px;
+  color:white;
+}
+
+.topic {
+  font-size: 11px;
+  color:grey;
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+  
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+</body>
+<script>
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='fa fa-caret-left'></i>",
+    "<i class='fa fa-caret-right'></i>"
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    800: {
+      items: 3
+    }
+  }
+})
+</script>
+</html>
