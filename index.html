@@ -3,13 +3,26 @@ layout: default
 ---
 <!DOCTYPE html>
 <html>	
+<style>
+	ul {
+		  list-style: none;
+		  margin: 0;
+		  padding: 0;
+		  display: grid;
+		  grid-template-columns: repeat(2, 1fr);
+		  grid-gap: 28px;
+		}
+	</style>
+	
   <body>
     <div class="container">
+	    <ul>
 	   	{% for post in site.posts limit:3 %}
 		    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		    <p>{{ post.content | strip_html | truncatewords:20 }}</p>
 		    <p>{{ post.date | date: "%b %d, %Y" }} {% include read_time.html %} </p>
-		{% endfor %} 		    
+		{% endfor %} 	
+	    </ul>
     </div>
   </body>	
 </html>
