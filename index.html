@@ -4,6 +4,32 @@ layout: default
 <!DOCTYPE html>
 <html>	
 <style>
+.logo {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.logo > div {
+}
+.logo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.logo1 {
+  grid-column: 1;
+}
+.logo2 { 
+  grid-column: 2;
+}
+.logo3 {
+  grid-column: 3;
+}
+.logo4 {
+  grid-column: 4;
+}
+	
 .readtime {
 	font-size: 15px;
 	}
@@ -35,10 +61,14 @@ li {
 		</li>
 		{% endfor %} 	
 		</ul>
-	    
-	       {% include businesslogo.html %}
+	
 	       </div>
-	  
+	  <div class="logo">
+  <div class="logo1">One</div>
+  <div class="logo2">Two</div>
+  <div class="logo3">Three</div>
+  <div class="logo4">Four</div>
+</div>
 	
 	   
  
