@@ -1,58 +1,33 @@
----
-layout: default
----
 <!DOCTYPE html>
-<html>	
+<html>
+<head>
 <style>
-
-
-.readtime {
-	font-size: 15px;
-	}
-	
-ul {
-	list-style-type: none;
-	columns:3;
-	margin: 0;
-	padding: 0;
+.button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #2D3236;
+    color: white;
+    border: 2px solid #2D3236;
+    
 }
 
-li {
-	padding: 5px;
+.button:hover {
+    background-color: white;
+    color: #2D3236;
 }
-	
-
-	
 </style>
-	
-  <body>
-    <div class="container">
-	   	<ul>
-			{% for post in site.posts limit:3 %}
-				<li>
-				    <a href="{{ post.url }}">
-					<h2>{{ post.title }}</h2>
-					<p>{{ post.content | strip_html | truncatewords:28 }}</p>
-					<p class="readtime">{{ post.content | number_of_words | divided_by: 180 | plus: 1 | append: " minute read" }}</p>
-				    </a>
-				</li>
-			{% endfor %} 	
-		</ul>
-    </div>
-	  
+</head>
+<body>
 
-	     {% include button.html %}
-	   
-	  
+<a href="/blog"><button class="button" style="display: block; margin: 0 auto; ">Read more</button></a>
 
-
-
-	
-	   
-	 
-	  {% include categories.html %}
- 
-  </body>
-	
-
+</body>
 </html>
