@@ -8,10 +8,24 @@ search_omit: true
 .readtime {
 	font-size: 15px;
 	}
-	
+@media all and (min-width: 700px) {	
 ul {
 	list-style-type: none;
-	columns:3;
+	columns:3; 
+	margin: 0;
+	padding: 0;
+}
+@media all and (min-width: 400px) {	
+ul {
+	list-style-type: none;
+	columns:2; 
+	margin: 0;
+	padding: 0;
+}
+@media all and (max-width: 399px) {	
+ul {
+	list-style-type: none;
+	columns:1; 
 	margin: 0;
 	padding: 0;
 }
