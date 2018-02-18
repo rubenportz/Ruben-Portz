@@ -1,9 +1,9 @@
 	<h2 style="text-align:center">Search all Posts</h2>
   
   <!-- Search form -->
-  <form method="get" action="/search" data-search-form style="margin:0 50%">
+  <form method="get" action="/search" data-search-form>
     <label for="q">Search term</label>
-    <input type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
+    <input type="search" name="q" id="q" placeholder="e.g. SEO" data-search-input />
     <input type="submit" value="Search" />
   </form>
 
@@ -19,6 +19,7 @@
   <script type="text/x-template" id="search-result">
     <div>
       <h2><a href="##Url##">##Title##</a></h2>
+      <p><a href="##Url##">##Content##</a></p>
       <p><a href="##Url##">##Date##</a></p>
       <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
     </div>
