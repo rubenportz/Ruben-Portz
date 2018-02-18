@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
- <h1 style="text-align:center"> {{ page.category }} </h1>	 
+<div style="text-align:center"> <h1 style="color:#2D3236">Post found within</h1><h1>{{ page.category }}</h1></div>	 
 
 {% for post in site.categories[page.category] %}
     <a href="{{ post.url | absolute_url }}">
