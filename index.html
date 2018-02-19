@@ -99,7 +99,7 @@ li {
   vertical-align: middle; text-align: center;
   margin: 6em 0 0 0;
   padding: 0;">
-    <a href="#" style="display: inline-block;
+    <a href="#anchor" style="display: inline-block;
   border-radius: 50%;">
       <span class="bottom"></span>
     </a>
@@ -108,7 +108,7 @@ li {
 		  
 	  
     <div class="container" style="margin-top:150px">
-	    <center><h1>Recent Essays</h1></center>
+	    <center><h1 name="anchor">Recent Essays</h1></center>
 	   	   	<ul>
 			{% for post in site.posts limit:3 %}
 				<li>
