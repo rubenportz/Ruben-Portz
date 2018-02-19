@@ -9,7 +9,11 @@ search_omit: true
 	font-size: 15px;
 	}
 	
-
+hr {
+    margin: 1em 0;
+    padding: 0;
+    width:2cm;
+}
 
 ul {
 	list-style-type: none;
@@ -44,7 +48,9 @@ li {
 	
   <body>
 	  <h1 style="align:center">The Growth Marketing Blog</h1>
-
+	<hr>
+	  <h5>Your weekly dose of predictive, marketing, and all things that drive growth.</h5>
+	  
     <div class="container">
 	   	   	<ul>
 			{% for post in site.posts limit:3 %}
