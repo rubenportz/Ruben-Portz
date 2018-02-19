@@ -20,6 +20,21 @@ ul {
 	
 	
 	
+.herowrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.ones {
+  grid-column: 1;
+  grid-row: 1;
+}
+.twos { 
+  grid-column: 2;
+  grid-row: 1;
+}
+
 	
 @media all and (max-width: 1000px)  {	
 ul {
@@ -44,9 +59,12 @@ li {
 </style>
 	
   <body>
+	  <div class="herowrap">
+  <div class="ones"><h1 style="align:center">The Growth Marketing Blog</h1></div>
+  <div class="twos">Two</div>
+</div>
     <div class="container">
-	    <h1 style="align:center">The Growth Marketing Blog</h1>
-	   	<ul>
+	   	   	<ul>
 			{% for post in site.posts limit:3 %}
 				<li>
 				    <a href="{{ post.url }}">
