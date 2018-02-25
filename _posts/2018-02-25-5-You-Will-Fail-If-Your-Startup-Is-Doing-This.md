@@ -4,7 +4,6 @@ date: 2018-02-25 10:10:00
 category: [MVP, Startup, Growth]
 ---
 
-
 You will fail if your start-up is doing this
 74% of start-ups fail because of premature scaling. This happens when you go to quickly from one stage of the start-up lifecycle to the next one – Discovery, Validation, Efficiency, Scale, Sustain & Conservation.
 You should move your start-up to the next stage once you reached certain milestones that can be measured by customer response to a product. These metrics might include things like activation rate, user growth, total number of users, retention rate and revenue. 
