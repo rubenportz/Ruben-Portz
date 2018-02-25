@@ -1,7 +1,7 @@
 ---
 title: You will fail if your start-up is doing this
 date: 2018-02-25 10:10:00
-category: [MVP, Startup, Growth]
+category: [MVP, startup, Growth]
 ---
 You will fail if your start-up is doing this
 74% of start-ups fail because of premature scaling. This happens when you go to quickly from one stage of the start-up lifecycle to the next one – Discovery, Validation, Efficiency, Scale, Sustain & Conservation.
