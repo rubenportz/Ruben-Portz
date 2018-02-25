@@ -1,7 +1,7 @@
 ---
 title: Why Entrepreneurs should be more like Scientists
 date: 2018-02-25 10:10:00
-category: [Startup, MVP, Growth]
+category: [startup, MVP, Growth]
 ---
 
 Why Entrepreneurs should be more like Scientists
