@@ -1,5 +1,5 @@
 ---
-title: 5 Frameworks to Validate Your Product
+title: You will fail if your start-up is doing this
 date: 2018-02-25 10:10:00
 category: [MVP, Startup, Growth]
 ---
