@@ -1,7 +1,7 @@
 ---
 title: The Best Marketing Plan I've Ever Seen
 date: 2018-02-25 10:10:00
-category: [Startup, Growth]
+category: [startup, Growth]
 ---
 
 https://www.scribd.com/doc/52618592/mint-s-original-marketing-plan 
