@@ -1,7 +1,7 @@
 ---
 title: Startup Hypotheses, Hypotheses, Hypotheses
 date: 2018-02-25 10:10:00
-category: [MVP, Startup, Growth]
+category: [MVP, startup, Growth]
 ---
 
 After each startup are 6 hypotheses that crashed and burned.
