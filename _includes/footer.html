@@ -22,7 +22,10 @@ a:visited {
 
 .wrapper > div {
   color: black;
-}.wrapper {
+}
+  
+
+  .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
@@ -48,7 +51,68 @@ a:visited {
   font-size:14px;
   align:left;
 }
-
+  
+@media all and (max-width: 1200px)  {	
+  .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.copyright {
+  grid-column: 2;
+  grid-row: 1;
+  font-size:12px;
+  vertical-align: middle;
+  padding-top:15px;
+}
+.social {
+  grid-column: 3;
+  grid-row: 1;
+  text-align:center;
+  padding-top:15px;
+  font-weight: bold;
+  font-size:14px;
+  align:left;
+}
+  
+@media all and (max-width: 900px)  {	
+  .wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.copyright {
+  grid-column: 1;
+  grid-row: 3;
+  font-size:12px;
+  vertical-align: middle;
+  padding-top:15px;
+  text-align:center;
+}
+.social {
+  grid-column: 1;
+  grid-row: 2;
+  text-align:center;
+  padding-top:15px;
+  font-weight: bold;
+  font-size:14px;
+  vertical-align: middle;
+  text-align:center;
+}
+  }
+  
+  
+  
 </style>
 
 
