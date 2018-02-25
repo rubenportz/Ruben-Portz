@@ -1,7 +1,7 @@
 ---
 title: How To Get Your Growth Hacker Interview Today
 date: 2018-02-25 10:10:00
-category: [Startup, Growth]
+category: [startup, Growth]
 ---
 
 How to get a job interview today
