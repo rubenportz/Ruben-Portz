@@ -4,7 +4,6 @@ date: 2018-02-25 10:10:00
 category: [MVP, Startup, Growth]
 ---
 
-Startup Hypotheses, Hypotheses, Hypotheses
 After each startup are 6 hypotheses that crashed and burned.
 
 Customer-Problem experiment
