@@ -37,6 +37,47 @@
   grid-row: 1;
   text-align:center;
 }
+ 
+@media all and (max-width: 1000px)  {	 
+ .wrapper-head {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+ .header-logo {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+ .blog-menu { 
+  grid-column: 3;
+  grid-row: 1;
+  text-align:center;
+}
+ }
+ 
+ @media all and (max-width: 600px)  {	 
+ .wrapper-head {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+ .header-logo {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+ .blog-menu { 
+  grid-column: 2;
+  grid-row: 1;
+  text-align:center;
+}
+ }
+ 
 
  a:link {
     color: black; 
