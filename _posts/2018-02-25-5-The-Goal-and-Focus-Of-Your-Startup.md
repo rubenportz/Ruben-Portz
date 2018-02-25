@@ -1,7 +1,7 @@
 ---
 title: This Should Be The Focus and Goal Of Your Startup
 date: 2018-02-25 10:10:00
-category: [Startup, Growth]
+category: [startup, Growth]
 ---
 
 The Focus and Goal of Your Startup Should be This
