@@ -4,28 +4,33 @@ search_omit: true
 ---
 <!DOCTYPE html>
 <html>	
-  <script src="/scripts/search2.js"></script>
- 
   <script>
-  $('#box').keyup(function(){
-   var valThis = $(this).val().toLowerCase();
-    if(valThis == ""){
-        $('.navList > li').show();           
-    } else {
-        $('.navList > li').each(function(){
-            var text = $(this).text().toLowerCase();
-            (text.indexOf(valThis) >= 0) ? $(this).show() : $(this).hide();
-        });
-   };
-});
-  </script>
+function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
   
   <body>
-    <input placeholder="Search Me" id="box" type="text" /> 
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
     
  
-<ul class="navList">
+<ul id="myUL">
     <h2>      
      <li><a href="http://3qdigital.com/featured/ab-testing-over-1m-worth-of-display-ads-5-things-we-learned/">A/B Testing Over $1M Worth of Displays Ads </a><br></li>
 <li><a href="http://500.co/mobile-growth-engine-branch/">How To Build a Mobile App Business </a><br></li>
