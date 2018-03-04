@@ -114,7 +114,7 @@ li {
 	    <center><a name="anchor"><h1>Recent Essays</h1></a></center>
 	   	   	<ul>
 			{% for post in site.posts limit:3 %}
-				<li>
+				<li style="text-align:top">
 				    <a href="{{ post.url }}">
 					<h2>{{ post.title }}</h2>
 					<p>{{ post.content | strip_html | truncatewords:28 }}</p>
