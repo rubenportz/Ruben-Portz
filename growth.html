@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+* {box-sizing: border-box;}
+.wrapper {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%; /* the magic */
+
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+}
+
+.blue {
+  background-color: #272725;  
+}
+
+.wrapper {
+  display: grid;
+}
+
+.one { 
+  grid-column: 1 / 1;
+  height: 140px;
+  margin-right:30px;
+
+}
+.two { 
+  grid-column: 5 / 6;
+  grid-row: 2 / 2
+}
+.three {
+  grid-column: 2 / 5;
+  width:600px;
+}
+
+
+p, h1, h2 {
+  margin: 10px 0 0 0;
+  padding: 0px;
+  color: #272725;  
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius:20px;
+    color: #272725;
+    padding: 15px 50px;
+    margin-left:80px;
+    margin-top:25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+</style>
+
+<body>
+
+<div align="center" style="margin:80px 0"><h1>Focus on sustainable growth with</h1></div>
+
+<div class="wrapper">
+  <div class="one"> 
+    <div class="circle blue">
+      1
+    </div>
+   </div>
+  <div class="three">
+    <h2>Turn big goals into small projects</h2>
+    <p>Set company goals and priotize each project according its expected impact on these goals. Everyone can see why their work is important to reach the goals.</p>
+  </div>
+  <div class="one"> 
+    <div class="circle blue">
+      2
+    </div>
+   </div>
+  <div class="three">
+    <h2>Implement a growth hacking process</h2>
+    <p>Use a process of rapid experimentation across marketing channels and product development to identify the most efficient ways to grow your business.</p>
+  </div>
+  <div class="one"> 
+    <div class="circle blue">
+      3
+    </div>
+   </div>
+  <div class="three">
+    <h2>Turn your team into a growth engine</h2>
+    <p>Track the team's input of ideas and monitor the results to get growth predictability and be able to recognize key contributors.</p>
+  </div>
+    <div class="two">
+        <a href="https://www.w3schools.com">
+          <div class="button">  
+            <b>Plans and Pricing</b>
+          </div>
+      </a>
+
+</div>
+  
+  </div>
+  
+ 
+  <div align="center" style="margin:80px 0"><h1>Screenshots</h1></div>
+
+
+
+
+
+</body>
+</html>
