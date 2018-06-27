@@ -11,7 +11,7 @@ category: MVP
 
 [How I Validated my idea in 2 days (with no code)](https://www.youtube.com/watch?v=1s_LoWy2dBU)
 
-[Validate Your Business Idea: THE LEAN STARTUP by Eric Ries | Core Message](https://www.youtube.com/watch?v=QaoVWtLX038)
+[Validate Your Business Idea by Eric Ries](https://www.youtube.com/watch?v=QaoVWtLX038)
 
 [Real live validation](https://appsumo.com/wantrepreneurs-business-blueprint/) 
 
