@@ -1,6 +1,6 @@
 ---
 title: A Simple But Great Marketing Plan
-date: 2018-02-25 10:10:00
+date: 2018-06-25 10:10:00
 category: [startup, Growth, mvp]
 ---
 
