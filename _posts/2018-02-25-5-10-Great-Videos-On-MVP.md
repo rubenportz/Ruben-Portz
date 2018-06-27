@@ -1,12 +1,14 @@
 ---
-title: 10 Best Videos on MVP
+title: 10 Great Videos on MVP
 date: 2018-02-25 10:10:00
 category: MVP
 ---
 
-MVP building & validation	https://youtu.be/v47WEyeSMSA?t=55m20s 
+MVP building & validation	
+https://youtu.be/v47WEyeSMSA?t=55m20s 
 
-5 ways to save money on AdWords	https://www.youtube.com/watch?v=TqVgwiyLmI8
+5 ways to save money on AdWords	
+https://www.youtube.com/watch?v=TqVgwiyLmI8
 
 How I: Validated my idea in 2 days (with no code)	https://www.youtube.com/watch?v=1s_LoWy2dBU
 
