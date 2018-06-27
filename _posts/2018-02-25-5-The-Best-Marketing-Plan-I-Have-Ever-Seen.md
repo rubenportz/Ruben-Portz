@@ -11,18 +11,22 @@ It was the original plan that Noah Kagan of AppSumo.com (Daily deals for web gee
 
 I copied it in below for your inspiration.
 
---
+|
+|
+|
+˅
+
 Marketing Game Plan for MyMint 
 
 Goal 
-a) 80,000 users within 6 months of public launch 
-b) Write up in a major publication (WSJ, Wired, Etc...) 
+- 80,000 users within 6 months of public launch 
+- Write up in a major publication (WSJ, Wired, Etc...) 
 
 Objectives of Launch 
-a) Test out MyMint service 
-b) Tell a friend whether they login or not 
-c) Provide a way for them to enjoy experience without giving sensitive information 
-d) Find cheerleaders in the beta process to help us promote the service 
+- Test out MyMint service 
+- Tell a friend whether they login or not 
+- Provide a way for them to enjoy experience without giving sensitive information 
+- Find cheerleaders in the beta process to help us promote the service 
 
 Target Users (in priority order) - which customer demographics are most important / most relevant? 
 - Young Professionals, don't want to waste time and want easy way to see finances. My feeling is that there are a lot of techies looking for deals, ways to save money and scour the web for it. We can easily get them as early adopters and then transition later to the mainstream. 
