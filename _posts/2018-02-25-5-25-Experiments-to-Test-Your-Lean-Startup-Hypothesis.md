@@ -1,6 +1,6 @@
 ---
 title: 25 Experiments to Test Your Lean Startup Hypothesis
-date: 2018-02-25 10:10:00
+date: 2018-06-10 10:10:00
 category: [startup, MVP, Growth]
 ---
 
@@ -30,8 +30,5 @@ category: [startup, MVP, Growth]
 23.	Why similar startups failed
 24.	Field visits
 25.	Etnography
-And three extras:
-26.	Surveys
-27.	Usability testing
-28.	Logs analysis
+
 
