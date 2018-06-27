@@ -4,6 +4,12 @@ date: 2018-02-25 10:10:00
 category: MVP
 ---
 
+MVP building & validation
+
+MVP building & validation | https://youtu.be/v47WEyeSMSA?t=55m20s
+ 
+
+
 MVP building & validation	
 https://youtu.be/v47WEyeSMSA?t=55m20s 
 
