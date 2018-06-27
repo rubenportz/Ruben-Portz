@@ -10,12 +10,12 @@ Having absorbed the Berlin and London start-up world, there are a few take-aways
 
 
 
-Focus: smallest things to build and put in front of customers to test viability of sales
+**Focus**: smallest things to build and put in front of customers to test viability of sales
 
-Goal: maximize the rate of learning, by minimizing the time to try ideas
+**Goal**: maximize the rate of learning, by minimizing the time to try ideas
 
-Priority: speed and excitement
+**Priority**: speed and excitement
 
-Motto: Doing is the best type of thinking
+**Motto**: Doing is the best type of thinking
 
-Progress: Get 10% better each week on some metric to feel progress (ideally revenue)
+**Progress**: Get 10% better each week on some metric to feel progress (ideally revenue)
