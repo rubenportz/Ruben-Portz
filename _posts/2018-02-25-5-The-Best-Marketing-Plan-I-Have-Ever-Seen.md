@@ -1,13 +1,19 @@
 ---
-title: The Best Marketing Plan I've Ever Seen
+title: A Simple But Great Marketing Plan
 date: 2018-02-25 10:10:00
-category: [startup, Growth]
+category: [startup, Growth, mvp]
 ---
 
-https://www.scribd.com/doc/52618592/mint-s-original-marketing-plan 
-Background: This was the original plan I proposed to Aaron Patzer (founder) when I started working on Mint in December 2007. 
-Created by @NoahKagan of AppSumo.com (Daily Deals for Web Geeks) 
+
+Yesterday I came across an examplary marketing plan for early-stage founders. I mean, if you never pulled together a marketing plan and are starting out your first business, then definitely have a look at how simple and fast you can pull something together. 
+
+It was the original plan that Noah Kagan of AppSumo.com (Daily deals for web geeks) proposed to Aaron Patzer when he started working Mint.com. Mint is a free personal finance tool and was bought by Intuit for $170 million less than two years after it started.
+
+I copied it in below for your inspiration.
+
+--
 Marketing Game Plan for MyMint 
+
 Goal 
 a) 80,000 users within 6 months of public launch 
 b) Write up in a major publication (WSJ, Wired, Etc...) 
