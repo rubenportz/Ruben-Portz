@@ -6,6 +6,18 @@ category: MVP
 
 
 
+[MVP building & validation] (https://youtu.be/v47WEyeSMSA?t=55m20s)
+
+[5 ways to save money on AdWords] (https://www.youtube.com/watch?v=TqVgwiyLmI8)
+
+	
+
+[How I: Validated my idea in 2 days (with no code)] (https://www.youtube.com/watch?v=1s_LoWy2dBU)
+
+
+
+
+
 <a href="https://youtu.be/v47WEyeSMSA?t=55m20s”> MVP building & validation</a>
 
 
