@@ -12,8 +12,9 @@ It was the original plan that Noah Kagan of AppSumo.com (Daily deals for web gee
 I copied it in below for your inspiration.
 
 |
+
 |
-|
+
 ˅
 
 Marketing Game Plan for MyMint 
