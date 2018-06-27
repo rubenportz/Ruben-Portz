@@ -1,5 +1,5 @@
 ---
-title: 18 Videos, and You'll Know What MVP Really Means
+title: 15 Videos, and You'll Know What MVP Really Means
 date: 2018-02-25 10:10:00
 category: MVP
 ---
@@ -7,13 +7,9 @@ category: MVP
 
 [MVP building & validation](https://youtu.be/v47WEyeSMSA?t=55m20s)
 
-[5 ways to save money on AdWords](https://www.youtube.com/watch?v=TqVgwiyLmI8)
-
 [How I Validated my idea in 2 days (with no code)](https://www.youtube.com/watch?v=1s_LoWy2dBU)
 
 [Validate Your Business Idea by Eric Ries](https://www.youtube.com/watch?v=QaoVWtLX038)
-
-[Real live validation](https://appsumo.com/wantrepreneurs-business-blueprint/) 
 
 [What investors want to hear](https://youtu.be/-smTkDBRqr0?t=11m)
 
@@ -39,7 +35,6 @@ category: MVP
 
 [5 aspects of business model](https://www.youtube.com/watch?v=PyqksscR5QU)
 
-[FB targeting](https://www.youtube.com/watch?v=8L9WxjsvHy8)
 
 
 
