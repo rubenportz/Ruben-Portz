@@ -9,9 +9,9 @@ category: MVP
 <a href="https://youtu.be/v47WEyeSMSA?t=55m20s”> MVP building & validation</a>
 
 
+http://www.thefrugalshopper.com/  
 
-
-MVP building & validation | https://youtu.be/v47WEyeSMSA?t=55m20s
+MVP building & validation | http://www.youtube.com/v47WEyeSMSA?t=55m20s
  
 
 
