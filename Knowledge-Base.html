@@ -15,8 +15,8 @@ function myFunction() {
 
     // Loop through all list items, and hide those who don't match the search query
     for (i = 0; i < li.length; i++) {
-        search = li[i].getElementsByTagName("search")[0];
-        if (search.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        h3 = li[i].getElementsByTagName("h3")[0];
+        if (h3.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
@@ -46,7 +46,7 @@ function myFunction() {
     
  
 <ul id="myUL">
-   <li style=""><h3><search>      
+   <li style=""><h3>      
      A/B Testing Over $1M Worth of Displays Ads <br>
   </h3>
 <p>
@@ -63,7 +63,7 @@ When it comes to launch time, get in touch with these individuals and explain th
   
 
 <li>
-<h3 style="tbd"> <search>  
+<h3 style="tbd">  
 Content Marketing in 60 Seconds
 </h3>
 <p style="why"><b>Why:</b>
@@ -86,7 +86,7 @@ If SEO plays an important part in improving visibility for your online business,
 </p><br><br></li>
 
 <li>
-<h3 style="tbd"><search>   
+<h3 style="tbd">   
 PR in 60 seconds
 </h3>
 <p style="why"><b>Why:</b>
@@ -104,7 +104,7 @@ True relationships with journalists at top-notch magazines, tv-stations and onli
 </p><br><br></li>
 
 <li>
-<h3 style="tbd"><search>   
+<h3 style="tbd">   
 How Do You Increase Your Quality Score?
 </h3>
 <p style="why"><b>Why:</b>
