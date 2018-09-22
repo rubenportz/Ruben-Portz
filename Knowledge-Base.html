@@ -7,16 +7,15 @@ search_omit: true
   <script>
 function myFunction() {
     // Declare variables
-    var input, filter, ul, li, h3, i;
+    var input, filter, ul, li, a, i;
     input = document.getElementById('myInput');
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName('li');
-
     // Loop through all list items, and hide those who don't match the search query
     for (i = 0; i < li.length; i++) {
-        h3 = li[i].getElementsByTagName("h3")[0];
-        if (h3.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
@@ -46,80 +45,314 @@ function myFunction() {
     
  
 <ul id="myUL">
-   <li style=""><h3>      
-     A/B Testing Over $1M Worth of Displays Ads <br>
-  </h3>
-<p>
-<b>Why:</b> Improve your product and add features that your potential users want to see, plus build relationships with potential advocates.<br><br>
+    <h3>      
+     <li><a href="http://3qdigital.com/featured/ab-testing-over-1m-worth-of-display-ads-5-things-we-learned/" target="_blank">A/B Testing Over $1M Worth of Displays Ads </a><br></li>
+<li><a href="http://500.co/mobile-growth-engine-branch/" target="_blank" target="_blank">How To Build a Mobile App Business </a><br></li>
+<li><a href="http://500.co/social-tools-growth/" target="_blank">From 150K users to 2 million in 170 Countries in 5 Months </a><br></li>
+<li><a href="http://500.co/startup-pivot-pyramid/" target="_blank">How to Pivot Your Startup the Right Away </a><br></li>
+<li><a href="http://aaronzakowski.com/how-reduced-invision-cost-per-signup-facebook-ads/" target="_blank">How To Reduce InVision’s Cost Per Signup with Facebook Ads by 44% </a><br></li>
+<li><a href="http://acquireconvert.com/ab-testing-best-practices/" target="_blank">55 A/B Testing Best Practices </a><br></li>
+<li><a href="http://ahrefs.com/blog/on-page-seo/" target="_blank">On Page SEO in 2016 </a><br></li>
+<li><a href="http://amplitude.com/blog/2016/01/14/measuring-active-users/" target="_blank">You’re Measuring Daily Active Users Wrong </a><br></li>
+<li><a href="http://andrewchen.co/breaking-down-671-million-push-notifications-by-hour/" target="_blank">What 671 million push notifications say about how people spend their day </a><br></li>
+<li><a href="http://andrewchen.co/early-traction-how-to-go-from-zero-to-150000-email-subscribers-guest-post/" target="_blank">From zero to 150,000 email subscribers </a><br></li>
+<li><a href="http://attach.io/sales-email-templates/" target="_blank">101 Sales Email Templates </a><br></li>
+<li><a href="http://backlinko.com/increase-conversions" target="_blank">How To Boost Conversions by 785% in One Day </a><br></li>
+<li><a href="http://backlinko.com/on-page-seo" target="_blank">Anatomy of a Perfectly Optimized Page </a><br></li>
+<li><a href="http://backlinko.com/search-engine-ranking" target="_blank">Analysis of 1M Google search results </a><br></li>
+<li><a href="http://backlinko.com/seo-campaign" target="_blank">SEO Campaign = 15% More Organic Traffic </a><br></li>
+<li><a href="http://backlinko.com/viral-content" target="_blank">How to Create Viral Content </a><br></li>
+<li><a href="http://baremetrics.com/blog/automating-customer-feedback" target="_blank">How To Fully Automate Customer Feedback </a><br></li>
+<li><a href="http://baymard.com/blog/credit-card-declined" target="_blank">How to Recoup 30% of “Card Declined” Abandonments </a><br></li>
+<li><a href="http://beyondphilosophy.com/ever-heard-of-the-ikea-effect-increasing-perceived-value-while-reducing-costs/?-increasing-perceived-value-while-reducing-costs" target="_blank">Increasing Perceived Value While Reducing Costs </a><br></li>
+<li><a href="http://blog.aweber.com/email-marketing/easy-secret-more-subscribers.htm" target="_blank">The (Easy) Secret To 1,375% More Subscribers </a><br></li>
+<li><a href="http://blog.brand24.net/how-heineken-uses-social-media-case-study/" target="_blank">How Heineken Uses Social Media </a><br></li>
+<li><a href="http://blog.bufferapp.com/best-time-to-tweet-research" target="_blank">What 4.8 Million Tweets Say About the Best Time to Tweet </a><br></li>
+<li><a href="http://blog.bufferapp.com/how-and-why-to-write-persuasive-research-backed-content" target="_blank">How and Why To Write Persuasive, Research-Backed Content </a><br></li>
+<li><a href="http://blog.bufferapp.com/power-of-story" target="_blank">The Power of Storytelling </a><br></li>
+<li><a href="http://blog.bufferapp.com/twitter-hacks" target="_blank">14 Twitter Hacks That Will Turn You Into a Twitter Pro </a><br></li>
+<li><a href="http://blog.catchpoint.com/2014/07/16/adaptive-vs-responsive-web-design-quantifying-difference/" target="_blank">Adaptive vs. Responsive Web Design </a><br></li>
+<li><a href="http://blog.clearbit.com/how-were-using-free-tools-to-engage-developers/" target="_blank">Using free products for lead generation </a><br></li>
+<li><a href="http://blog.crazyegg.com/2014/09/19/convert-trial-users/" target="_blank">How to Quickly Convert Trial Users Into Paying Customers </a><br></li>
+<li><a href="http://blog.crazyegg.com/2015/03/31/friction-39-tips/" target="_blank">39 Tips to Kill Conversion-Blockers </a><br></li>
+<li><a href="http://blog.datastories.com/blog/reddit-front-page" target="_blank">7 secrets of Reddit </a><br></li>
+<li><a href="http://blog.docsend.com/find-10k-sales-prospects-linkedin/" target="_blank">How to Find 10,000 Sales Prospects on LinkedIn in 10 Mins </a><br></li>
+<li><a href="http://blog.getresponse.com/single-important-email-metric-response-rate-new-click-rate.html" target="_blank">Why Response Rate Is The New Click-Through Rate </a><br></li>
+<li><a href="http://blog.getrooster.com/5-scientific-reasons-exit-popups-freaking-effective/" target="_blank">5 Scientific Reasons Exit Popups Are Effective </a><br></li>
+<li><a href="http://blog.getrooster.com/5-scientific-reasons-exit-popups-freaking-effective/" target="_blank">5 Scientific Reasons Exit Popups Are So Freaking Effective </a><br></li>
+<li><a href="http://blog.gleam.io/grow-youtube/" target="_blank">Increase YouTube Subscribers by 400% </a><br></li>
+<li><a href="http://blog.hubspot.com/blog/tabid/6307/bid/30901/30-Thought-Provoking-Lead-Nurturing-Stats-You-Can-t-Ignore.aspx#sm.0004aepn51763eadt9m2b0v58ka1q" target="_blank">30 Thought-Provoking Lead Nurturing Stats You Can’t Ignore </a><br></li>
+<li><a href="http://blog.hubspot.com/blog/tabid/6307/bid/33756/Why-You-Yes-You-Need-to-Create-More-Landing-Pages.aspx#sm.0004aepn51763eadt9m2b0v58ka1q" target="_blank">Why You Need to Create More Landing Pages </a><br></li>
+<li><a href="http://blog.hubspot.com/marketing/guest-writer-popular-websites#sm.0004aepn51763eadt9m2b0v58ka1q" target="_blank">How to Be a Guest Writer on 11 Popular Sites </a><br></li>
+<li><a href="http://blog.hubspot.com/marketing/historical-blog-seo-conversion-optimization#sm.0004aepn51763eadt9m2b0v58ka1q" target="_blank">Optimizing the Past </a><br></li>
+<li><a href="http://blog.hubspot.com/marketing/how-to-featured-snippet-box#sm.0004aepn51763eadt9m2b0v58ka1q" target="_blank">How to Optimize Your Content for Google’s Featured Snippet Box </a><br></li>
+<li><a href="http://blog.hubspot.com/marketing/pinterest-announces-buyable-pins#sm.0004aepn51763eadt9m2b0v58ka1q" target="_blank">Pinterest Announces Buyable Pins </a><br></li>
+<li><a href="http://blog.hubspot.com/marketing/seo-social-media-study#sm.0004aepn51763eadt9m2b0v58ka1q" target="_blank">The Anatomy of a Shareable, Linkable & Popular Post </a><br></li>
+<li><a href="http://blog.hubspot.com/marketing/seo-social-media-study#sm.0004aepn51763eadt9m2b0v58ka1q" target="_blank">The Anatomy of a Shareable, Linkable & Popular Post </a><br></li>
+<li><a href="http://blog.kissmetrics.com/100k-early-bird-signups/" target="_blank">How To Acquire 100K Early Bird Signups with Zero Marketing Budget </a><br></li>
+<li><a href="http://blog.kissmetrics.com/5-metrics-for-saas/" target="_blank">The 5 “Must Have” Metrics for Your SaaS Business </a><br></li>
+<li><a href="http://blog.kissmetrics.com/6-saas-marketing-techniques/" target="_blank">6 SaaS Marketing Techniques </a><br></li>
+<li><a href="http://blog.kissmetrics.com/loading-time/" target="_blank">How Loading Time Affects Your Bottom Line </a><br></li>
+<li><a href="http://blog.kissmetrics.com/make-twitter-profitable/" target="_blank">Make Twitter Profitable </a><br></li>
+<li><a href="http://blog.kissmetrics.com/results-with-promoted-pins/" target="_blank">How Brands Can Drive Results with Promoted Pinterest Pins </a><br></li>
+<li><a href="http://blog.kissmetrics.com/social-proof-factors-2/" target="_blank">7 Things About Leveraging Social Proof in Your Marketing Efforts </a><br></li>
+<li><a href="http://blog.lemonstand.com/ab-testing-lessons-from-unbounce-conversion-road-trip/" target="_blank">A/B Testing Lessons From Unbounce Conversion Road Trip </a><br></li>
+<li><a href="http://blog.lemonstand.com/designing-ecommerce-store-without-carousel-slider/" target="_blank">Designing Your eCommerce Store Without a Carousel Slider </a><br></li>
+<li><a href="http://blog.lemonstand.com/optimize-checkout-page-conversions/" target="_blank">How To Optimize Your Checkout Page For Conversions </a><br></li>
+<li><a href="http://blog.mixpanel.com/2016/03/16/andrew-chen-and-the-state-of-growth-hacking/" target="_blank">The state of growth hacking </a><br></li>
+<li><a href="http://blog.mixpanel.com/2016/06/02/how-pinterest-rethinks-growth-engineering/" target="_blank">Why Pinterest empowers its growth engineering team </a><br></li>
+<li><a href="http://blog.mixpanel.com/2016/06/30/sean-ellis-growth-marketing/" target="_blank">How growth hacking will outlive the hype </a><br></li>
+<li><a href="http://blog.optimizely.com/2016/05/17/ab-testing-for-low-traffic-websites/" target="_blank">A/B Testing for Low Traffic Websites </a><br></li>
+<li><a href="http://blog.popcornmetrics.com/user-onboarding-can-double-your-conversion-rates/" target="_blank">Why great User Onboarding can increase Conversions 300% </a><br></li>
+<li><a href="http://blog.roverlabs.co/post/95913358254/startups-how-to-guide-for-product-hunt" target="_blank">A startup’s how-to guide for Product Hunt </a><br></li>
+<li><a href="http://blog.statuspage.io/we-owe-25-of-our-growth-to-one-line-of-code" target="_blank">We Owe 25% Of Our Growth To One Line Of Code </a><br></li>
+<li><a href="http://blog.trak.io/39-actionable-growth-hacking-tactics-part-4-of-5/" target="_blank">39 Actionable Growth Hacking Tactics </a><br></li>
+<li><a href="http://blog.trak.io/39-actionable-growth-hacking-tactics-part-5-of-5/" target="_blank">39 Actionable Growth Hacking Tactics </a><br></li>
+<li><a href="http://blog.wishpond.com/post/103290853633/the-25-best-words-to-use-in-your-call-to-action" target="_blank">The 25 Best Words to Use in Your Call-To-Action Buttons </a><br></li>
+<li><a href="http://blog.wishpond.com/post/115675436810/slideshare-marketing" target="_blank">How We Got Featured On The Front Page Of Slideshare </a><br></li>
+<li><a href="http://blogtrottr.com/" target="_blank">Genius influencer trick with massive outcome </a><br></li>
+<li><a href="http://buzzsumo.com/blog/5-ways-create-amazing-viral-headlines/" target="_blank">How to Write Viral Headlines </a><br></li>
+<li><a href="http://buzzsumo.com/blog/how-buzzsumo-achieved-2-5m-annual-revenue-in-its-first-year-case-study-in-saas-growth/" target="_blank">Case Study in SaaS Growth </a><br></li>
+<li><a href="http://buzzsumo.com/blog/how-to-improve-facebook-engagement-insights-from-1bn-posts/" target="_blank">How To Improve Facebook Engagement </a><br></li>
+<li><a href="http://conversionxl.com/ab-test-validity-threats/" target="_blank">How to Minimize A/B Test Validity Threats </a><br></li>
+<li><a href="http://conversionxl.com/case-study-how-we-improved-landing-page-conversion/" target="_blank">How We Improved Landing Page Conversions by 79.3% </a><br></li>
+<li><a href="http://conversionxl.com/common-copywriting-mistakes/" target="_blank">16 Copywriting Mistakes You’re Probably Making </a><br></li>
+<li><a href="http://conversionxl.com/emotional-persuasion-guide/" target="_blank">The Advanced Guide to Emotional Persuasion </a><br></li>
+<li><a href="http://conversionxl.com/grammar-mistakes-costing-money/" target="_blank">Are grammar mistakes costing you money? </a><br></li>
+<li><a href="http://conversionxl.com/half-of-your-site-elements-are-useless-which-half/" target="_blank">Half of Your Site Elements Are Useless </a><br></li>
+<li><a href="http://conversionxl.com/how-to-write-product-page-copy-that-doesnt-suck/" target="_blank">How To Write Product Page Copy </a><br></li>
+<li><a href="http://conversionxl.com/nudges-culture-of-experimentation/" target="_blank">6 Clever Nudges To Build a Culture of Experimentation </a><br></li>
+<li><a href="http://conversionxl.com/the-ultimate-guide-to-increasing-ecommerce-conversion-rates/" target="_blank">The Ultimate Guide to Increasing Ecommerce Conversion Rates </a><br></li>
+<li><a href="http://conversionxl.com/write-copy-people-read" target="_blank">How to Write Copy People Will Actually Read </a><br></li>
+<li><a href="http://copymonk.com/market-sophistication/" target="_blank">`How to sell` </a><br></li>
+<li><a href="http://culturehive.co.uk/wp-content/uploads/2013/04/Dynamic-Pricing-at-The-Place.pdf" target="_blank">Dynamic Pricing at The Place </a><br></li>
+<li><a href="http://customer.io/blog/behavioral-conversion-emails.html" target="_blank">The Formula for Driving Action in Your Emails </a><br></li>
+<li><a href="http://customer.io/blog/loss-aversion-upgrade-emails.html" target="_blank">The Psychology of Upgrade Emails </a><br></li>
+<li><a href="http://danzarrella.com/my-data-shows-email-popups-work-and-dont-hurt/" target="_blank">My Data Shows Email Popups Work And Don’t Hurt </a><br></li>
+<li><a href="http://digiday.com/publishers/publishers-see-big-sharing-numbers-via-whatsapp/" target="_blank">WhatsApp emerges as big share driver for publishers </a><br></li>
+<li><a href="http://en.wikipedia.org/wiki/Door-in-the-face_technique" target="_blank">Door-in-the-face technique </a><br></li>
+<li><a href="http://en.wikipedia.org/wiki/Rhyme-as-reason_effect" target="_blank">Rhyme-as-reason effect </a><br></li>
+<li><a href="http://engineering.pinterest.com/blog/lessons-growth-engineering-how-we-doubled-sign-ups-pin-landing-pages" target="_blank">Lessons in growth engineering </a><br></li>
+<li><a href="http://firstround.com/review/80-of-Your-Culture-is-Your-Founder/" target="_blank">80% of Your Culture is Your Founder </a><br></li>
+<li><a href="http://firstround.com/review/build-your-user-base-with-these-human-behavior-hacks/" target="_blank">Human Behavior Hacks </a><br></li>
+<li><a href="http://firstround.com/review/take-on-your-competition-with-these-lessons-from-google-maps/" target="_blank">Lessons from Google Maps </a><br></li>
+<li><a href="http://firstround.com/review/the-inside-story-on-how-surveymonkey-cracked-the-international-market/" target="_blank">How SurveyMonkey Cracked the International Market </a><br></li>
+<li><a href="http://firstround.com/review/what-startups-can-learn-from-watsis-wildly-successful-email-campaign/" target="_blank">Watsi’s Wildly Successful Email Campaign </a><br></li>
+<li><a href="http://ghostinfluence.com/the-ultimate-retaliation-pranking-my-roommate-with-targeted-facebook-ads/" target="_blank">The Ultimate Retaliation </a><br></li>
+<li><a href="http://good.co/blog/2013/11/13/workplace-happiness" target="_blank">The High Cost of Unhappy Employees </a><br></li>
+<li><a href="http://growthbug.com/from-zero-to-1700-subscribers-3-weeks-7-growth-hacks-0-marketing-cost-5e212b5e9a61#.mhgk20qeb" target="_blank">From zero to 1700 subscribers </a><br></li>
+<li><a href="http://growthbug.com/how-i-doubled-my-downloads-by-changing-nothing-but-the-app-icon-5630f3dfdfbd#.er6egg4jg" target="_blank">How I doubled my downloads by changing nothing but the app icon </a><br></li>
+<li><a href="http://growthhackers.com/articles/5-lesser-known-ways-churn-hurts-your-company" target="_blank">5 Lesser-Known Ways Churn Hurts Your Company </a><br></li>
+<li><a href="http://growthhackers.com/slides/agile-marketing-meetup-moving-beyond-the-marketing-plan-so-you-remai" target="_blank">Moving Beyond the Marketing Plan So You Remain Relevant </a><br></li>
+<li><a href="http://growthmarketingconf.com/how-to-grow-your-saas-startup-to-10000-paying-customers/" target="_blank">$800M MRR (the 1 question framework) </a><br></li>
+<li><a href="http://hackingrevenue.com/freebies/revenue-estimations-model-freebie-for-hackingrev-readers/" target="_blank">Revenue Model Template </a><br></li>
+<li><a href="http://hackingrevenue.com/revenue/how-does-yelp-make-money/" target="_blank">How does Yelp make money? </a><br></li>
+<li><a href="http://hackpad.com/Growth-Hacking-Cook-Book-5RQex1Uv8Zf" target="_blank">Growth Hacking Cook Book </a><br></li>
+<li><a href="http://imscalable.com/blog/case-study-retargeting-done-wrong/" target="_blank">Everyone Is Doing Retargeting Wrong </a><br></li>
+<li><a href="http://inbound.org/blog/how-to-go-viral-and-not-regret-it" target="_blank">How to Go Viral </a><br></li>
+<li><a href="http://inbound.org/discuss/double-your-social-sharing-in-10-minutes-an-unexpected-and-stupid-simple-trick" target="_blank">Double your social sharing in 10 minutes </a><br></li>
+<li><a href="http://inbound.org/discuss/i-am-brian-dean-founder-of-backlinko-ask-me-anything" target="_blank">Brian Dean`s framework of writing articles </a><br></li>
+<li><a href="http://info.localytics.com/blog/the-inside-view-how-consumers-really-feel-about-push-notifications" target="_blank">How Consumers Really Feel About Push Notifications </a><br></li>
+<li><a href="http://keywordtool.io/" target="_blank">Find Out What Your Audience Is Looking For </a><br></li>
+<li><a href="http://klientboost.com/cro/cart-abandonment/" target="_blank">26 Cart Abandonment Fixes That Don’t Require Discounts </a><br></li>
+<li><a href="http://klientboost.com/cro/conversion-tricks/" target="_blank">9 Conversion Tricks That Are Borderline Magic </a><br></li>
+<li><a href="http://klientboost.com/ppc/single-keyword-ad-groups/" target="_blank">17 Reasons Why Single Keyword Ad Groups (SKAGs) Always Win </a><br></li>
+<li><a href="http://klientboost.com/retargeting/retargeting/" target="_blank">33 Retargeting Campaigns </a><br></li>
+<li><a href="http://marketing.wharton.upenn.edu/mktg/assets/File/Gneezy%20Gneezy%20Nelson%20%20Brown%202010.pdf" target="_blank">“PWYW” pricing model vs “Charity” </a><br></li>
+<li><a href="http://marketingwizdom.com/archives/312" target="_blank">Why 8% of sales people get 80% of the sales </a><br></li>
+<li><a href="http://mashable.com/2016/07/10/john-hanke-pokemon-go/#VDwSY4gxomqC" target="_blank">How Pokémon GO’s skyrocketed </a><br></li>
+<li><a href="http://medium.com/@happyaladdin/top-10-proven-growth-hacking-ideas-for-2016-bcd3c126de63#.ko0iuhw98" target="_blank">TOP 10 growth hacks for 2016 </a><br></li>
+<li><a href="http://medium.com/@inaherlihy/9-ways-behavioral-economics-can-help-increase-conversion-retention-and-roi-3e245a2604e3#.vfkxxge16" target="_blank">9 Ways To Increase Conversion, Retention, and ROI </a><br></li>
+<li><a href="http://medium.com/@inaherlihy/how-to-optimize-182250e499d7#.iv5w997hs" target="_blank">How to optimize referral programs </a><br></li>
+<li><a href="http://medium.com/@intentionally/the-danger-of-cheap-acquisition-ad2bfc46934#.23lkwof87" target="_blank">The Danger of Cheap Acquisition </a><br></li>
+<li><a href="http://medium.com/@Skyscanner/getting-growth-facilitation-on-point-guide-f4fafb74dac8#.b2rdqp4a6" target="_blank">Getting Growth on point </a><br></li>
+<li><a href="http://medium.com/lifecycle-marketing/how-we-got-from-0-to-75-000-mrr-with-zero-marketing-budget-b20101b09a76#.2ka66qwcm" target="_blank">From $0 to $75K MRR with 0 marketing budget </a><br></li>
+<li><a href="http://mobilesquared.co.uk/media/27820/Conversational-Advertising_SinglePoint_2010.pdf" target="_blank">Conversational Advertising </a><br></li>
+<li><a href="http://moz.com/blog/higher-organic-click-through-conversion-rates-rankings" target="_blank">5x Higher Organic Click-Through Rates </a><br></li>
+<li><a href="http://moz.com/blog/seo-split-testing-a-b-test-changes-google" target="_blank">How to A/B Test Changes for Google </a><br></li>
+<li><a href="http://moz.com/ugc/5-step-youtube-optimization-that-generated-5-121-327-views" target="_blank">YouTube Optimization Strategy Generated 5,121,327 Views </a><br></li>
+<li><a href="http://moz.com/ugc/a-simple-guide-to-adding-the-google-remarketing-pixel-to-your-site" target="_blank">A Simple Guide to Adding the Google Remarketing Pixel to Your Site </a><br></li>
+<li><a href="http://neilpatel.com/2015/06/25/15-quick-tips-to-persuade-visitors-to-subscribe-to-your-email-list/" target="_blank">How to Convert Visitors Into Email Subscribers </a><br></li>
+<li><a href="http://neilpatel.com/2016/05/27/how-to-get-your-slice-from-slideshares-70-million-monthly-visitors/" target="_blank">Get Your Slice From Slideshare’s 70 Million Monthly Visitors </a><br></li>
+<li><a href="http://nerds.airbnb.com/making-referrals-work-for-airbnb/" target="_blank">Hacking Word-of-Mouth </a><br></li>
+<li><a href="http://nichehacks.com/increase-email-list/" target="_blank">34 Ways To Increase Your Blogs Email Subscribers List </a><br></li>
+<li><a href="http://nickkolenda.leadpages.co/leadbox/1417f0b73f72a2%3A13aa6e42e346dc/5690145009303552/" target="_blank">Copywriting tip to quadruple conversions </a><br></li>
+<li><a href="http://nickkolenda.leadpages.co/leadbox/1417f0b73f72a2%3A13aa6e42e346dc/5690145009303552/" target="_blank">Hack persuasive copywriting </a><br></li>
+<li><a href="http://okdork.com/2014/03/26/how-we-grew-okdork-200-with-these-exact-seo-tips/" target="_blank">SEO for Beginners </a><br></li>
+<li><a href="http://okdork.com/2015/05/22/double-your-open-rate/" target="_blank">What’s Your Normal Email Open Rate? </a><br></li>
+<li><a href="http://online-metrics.com/case-study-booking-com/" target="_blank">33 Persuasion and Optimization Tricks </a><br></li>
+<li><a href="http://optinmonster.com/how-to-use-urgency-to-hack-your-conversion-rate/" target="_blank">How to Use Urgency to Hack Your Conversion Rate </a><br></li>
+<li><a href="http://persistiq.com/blog/the-complete-guide-outsourcing-b2b-lead-generation/" target="_blank">Generating Thousands of Sales Leads at a Fraction of the Price </a><br></li>
+<li><a href="http://pointblankseo.com/4-unique-link-building-ideas" target="_blank">4 Outside-the-Box Link Building Tactics </a><br></li>
+<li><a href="http://product.hubspot.com/blog/the-metric-watched-by-top-startup-growth-teams" target="_blank">The Metric Watched by Top Startup Growth Teams </a><br></li>
+<li><a href="http://raphaelpaulindaigle.com/blog/drip-marketing-complete-guide/" target="_blank">The Essential and Complete Guide to Drip Marketing </a><br></li>
+<li><a href="http://readthink.com/hubspot-s-playbook-for-going-from-startup-to-scale-up-29ab85d3a3e1#.93y97su7s" target="_blank">HubSpot’s Playbook for Going From Startup to Scale-up </a><br></li>
+<li><a href="http://rocketmedia.com/blog/better-design-makes-websites-more-trustworthy" target="_blank">Web sites with Better Design are More Trustworthy </a><br></li>
+<li><a href="http://sixteenventures.com/get-testimonials" target="_blank">Get testimonials without asking for them </a><br></li>
+<li><a href="http://sixteenventures.com/pricing-page-design-high-to-low" target="_blank">SaaS Pricing Page Design </a><br></li>
+<li><a href="http://sixteenventures.com/saas-competition" target="_blank">How to Compete in Crowded Markets </a><br></li>
+<li><a href="http://sixteenventures.com/saas-pricing-strategy" target="_blank">SaaS Pricing Strategy </a><br></li>
+<li><a href="http://slidebean.com/blog/startups/500-startups-pivot" target="_blank">How 500 Startups saved our company by forcing us to pivot </a><br></li>
+<li><a href="http://splitmetrics.com/blog/msqrd-ceo-shares-5-marketing-hacks-behind-the-apps-viral-success/" target="_blank">5 Marketing Hacks Behind the App’s Viral Success </a><br></li>
+<li><a href="http://splitmetrics.com/blog/whats-a-good-app-store-page-conversion-rate/" target="_blank">What’s a Good App Store Page Conversion Rate? </a><br></li>
+<li><a href="http://sumome.com/stories/email-signup-benchmarks" target="_blank">What 300 Million Pop-ups Taught Us About Email Signup Rates </a><br></li>
+<li><a href="http://sumome.com/stories/grommet-growth" target="_blank">Growing The Grommet </a><br></li>
+<li><a href="http://sumome.com/stories/headline-formulas" target="_blank">Headline Formulas to Skyrocket Conversions </a><br></li>
+<li><a href="http://sumome.com/stories/podcast-interviews" target="_blank">The Ultimate Guide to Getting Featured on Podcasts </a><br></li>
+<li><a href="http://sumome.com/stories/power-words" target="_blank">Turbo-Charge Your Marketing With These 355+ Power Words </a><br></li>
+<li><a href="http://sumome.com/stories/welcome-mat-fedora" target="_blank">How One Tool Increased Fedora’s Signup Rate by 70% </a><br></li>
+<li><a href="http://support.google.com/adwords/answer/2549111" target="_blank">How to create a custom combination list </a><br></li>
+<li><a href="http://techcrunch.com/2014/07/14/please-dont-spam-us/" target="_blank">The TechCrunch journalists` emails </a><br></li>
+<li><a href="http://thenextweb.com/insider/2015/07/25/how-i-went-from-0-to-8-figure-revenue-in-18-months/" target="_blank">From 0 to 8-figure revenue in 18 months </a><br></li>
+<li><a href="http://tribeboost.com/11-easy-steps-to-making-over-3million-from-a-single-sales-page/" target="_blank">How To Make Over $3,000,000 From Your Sales Page </a><br></li>
+<li><a href="http://tubularinsights.com/video-demos-sales-zappos/" target="_blank">Boost sales by 6–30% (case study) </a><br></li>
+<li><a href="http://unbounce.com/a-b-testing/failed-ab-test-results/" target="_blank">How Failed A/B Tests Can Increase Conversion Rates </a><br></li>
+<li><a href="http://unbounce.com/content-marketing/4-common-blogging-mistakes/" target="_blank">4 Common Blogging Mistakes </a><br></li>
+<li><a href="http://unbounce.com/conversion-rate-optimization/hidden-power-of-giveaways/" target="_blank">How To Increase Conversions by 700% Using Giveaways to Capture Leads </a><br></li>
+<li><a href="http://unbounce.com/conversion-rate-optimization/hidden-power-of-giveaways/" target="_blank">How We Increased Conversions by 700% </a><br></li>
+<li><a href="http://unbounce.com/conversion-rate-optimization/made-up-product-increased-conversions/" target="_blank">How a Made-up Product Increased Conversions by 233% </a><br></li>
+<li><a href="http://venngage.com/blog/content-marketing-benchmarks/" target="_blank">Content Marketing Benchmarks </a><br></li>
+<li><a href="http://videofruit.com/blog/blog-comments/" target="_blank">How much is a blog comment worth? </a><br></li>
+<li><a href="http://videofruit.com/blog/email-list/" target="_blank">How to double your email list in 24 hours (Case Study) </a><br></li>
+<li><a href="http://videofruit.com/blog/one-dollar-trial/" target="_blank">$1.99 trial generated $19,499 in MRR </a><br></li>
+<li><a href="http://videofruit.com/blog/online-course-price/" target="_blank">Use this framework to quickly price your online course </a><br></li>
+<li><a href="http://videofruit.com/blog/product-launch-recap/" target="_blank">All the data and numbers from our latest product launch </a><br></li>
+<li><a href="http://videofruit.com/blog/relaunch-product/" target="_blank">How to re-launch an old product and make $2,500,000 </a><br></li>
+<li><a href="http://videofruit.com/blog/suck-at-writing/" target="_blank">How to choose topics for blog posts </a><br></li>
+<li><a href="http://videofruit.com/blog/writing-blog-post" target="_blank">Writing a 10,000-word blog post in 5 hours </a><br></li>
+<li><a href="http://videofruit.com/jumpstart-lesson5/" target="_blank">How to use the Testimonial Hack strategy </a><br></li>
+<li><a href="http://videomarketer.io/4-tips-to-turn-a-youtube-viewer-into-a-subscriber/" target="_blank">4 YouTube Growth Hacks </a><br></li>
+<li><a href="http://vwo.com/blog/ab-test-font-size-case-study/" target="_blank">How To Score 32% More Clicks </a><br></li>
+<li><a href="http://vwo.com/blog/adding-single-letter-increases-sales/" target="_blank">Addition of a Single Letter Increased Sales by 20% </a><br></li>
+<li><a href="http://vwo.com/blog/facebook-login-reduces-sales-ecommerce-store/" target="_blank">Facebook Login Reduces Ecommerce Sales </a><br></li>
+<li><a href="http://vwo.com/blog/image-outperforms-video-increases-monthly-revenue/" target="_blank">Landing Page Image Outperforms Video, Increases Monthly Revenue by $106000 </a><br></li>
+<li><a href="http://vwo.com/blog/minimal-homepage-increased-leads-seo-service-company/" target="_blank">How To Increase Leads for an SEO Service Company from 1.39% to 13.13% </a><br></li>
+<li><a href="http://vwo.com/blog/removing-social-sharing-buttons-from-ecommerce-product-page-increase-conversions/" target="_blank">Removing Social Sharing Buttons Increases Conversions </a><br></li>
+<li><a href="http://vwo.com/blog/signup-conversion-rate-ab-testing/" target="_blank">Signups increased by 60% after actually removing the signup form </a><br></li>
+<li><a href="http://vwo.com/blog/split-testing-mobile-website-desktop-website-tablet-users-increased-revenue/" target="_blank">Redirecting Tablet Users to Desktop Website Increased Revenue by 71.81% </a><br></li>
+<li><a href="http://vwo.com/blog/stock-photos-reduce-conversions/" target="_blank">How Adding Real Photos Improved Conversions </a><br></li>
+<li><a href="http://web.mit.edu/simester/Public/Papers/Effectsof$9.pdf" target="_blank">Effects of $9 Price Endings on Retail Sales </a><br></li>
+<li><a href="http://wistia.com/blog/optimal-video-length" target="_blank">Optimal Video Length </a><br></li>
+<li><a href="http://wistia.com/library/using-video-ctas" target="_blank">The Wistia Guide to Calls to Action in Video Marketing </a><br></li>
+<li><a href="http://workaholics4hire.com/risk-reversals-role-reversal/" target="_blank">Risk-Reversal’s Role Reversal </a><br></li>
+<li><a href="http://wpcurve.com/convertkit" target="_blank">From zero to $125,000+ in monthly recurring revenue </a><br></li>
+<li><a href="http://www.adbasis.com/blog/the-3-magic-words-of-mobile-advertising.html" target="_blank">The 3 Magic Words of Mobile Advertising </a><br></li>
+<li><a href="http://www.adngin.com/blog/publisher-tools/duplicating-stuck-facebook-campaign-increase-reach-case-study/" target="_blank">100x more traffic (super simple hack) </a><br></li>
+<li><a href="http://www.appcues.com/blog/3-fundamental-user-onboarding-lessons-from-classic-nintendo-games/" target="_blank">3 Fundamental User Onboarding Lessons </a><br></li>
+<li><a href="http://www.appsumo.com/0-to-1-billion/" target="_blank">0 to 1 billion </a><br></li>
+<li><a href="http://www.appvirality.com/blog/how-positive-in-app-wallet-balance-can-reduce-uninstall-rate/" target="_blank">How To Reduce Uninstall Rate By 60% </a><br></li>
+<li><a href="http://www.appvirality.com/blog/startup-lessons-als-ice-bucket-challenge/" target="_blank">What Startups can learn from the ALS Ice Bucket Challenge? </a><br></li>
+<li><a href="http://www.bizible.com/blog/4-b2b-saas-growth-hacks-that-helped-bizible-raise-8m" target="_blank">4 B2B SaaS Growth Hacks </a><br></li>
+<li><a href="http://www.bluefountainmedia.com/blog/verisign-seal-increase-conversions/" target="_blank">Verisign Seal Increase Conversions </a><br></li>
+<li><a href="http://www.business2community.com/digital-marketing/freemium-conversion-rate-spotify-destroys-dropbox-667-01497671" target="_blank">Why Spotify Destroys Dropbox by 667% </a><br></li>
+<li><a href="http://www.buzzfeed.com/alexkantrowitz/this-is-how-to-get-your-linkedin-contacts-email-addresses?utm_term=.hilMqAYLe#.ksv2MemYr" target="_blank">The Most Useful Link On LinkedIn </a><br></li>
+<li><a href="http://www.campaignmonitor.com/blog/email-marketing/2014/08/buttons-email-marketing-campaigns/" target="_blank">Using buttons in your email marketing campaigns </a><br></li>
+<li><a href="http://www.clambr.com/link-building-tools/" target="_blank">55 SEO Experts Reveal 3 Favourite Link Building Tools </a><br></li>
+<li><a href="http://www.combustible.ca/ecommerce-conversion-rate/persistent-shopping-cart.php" target="_blank">20- Implement a Persistent Shopping Cart </a><br></li>
+<li><a href="http://www.conversion-rate-experts.com/crazy-egg-case-study/" target="_blank">How we grew Crazy Egg’s conversion rate by 363% </a><br></li>
+<li><a href="http://www.conversion-rate-experts.com/crazy-egg-case-study/" target="_blank">How we grew Crazy Egg’s conversion rate by 363% </a><br></li>
+<li><a href="http://www.copyblogger.com/10-sure-fire-headline-formulas-that-work/" target="_blank">10 Sure-Fire Headline Formulas That Work </a><br></li>
+<li><a href="http://www.copyblogger.com/scientific-copywriting/" target="_blank">7 Scientifically-Backed Copywriting Tips </a><br></li>
+<li><a href="http://www.creativelive.com/courses/smart-pr-artists-entrepreneurs-and-small-business-ryan-holiday" target="_blank">Hack influencers </a><br></li>
+<li><a href="http://www.crowdfireapp.com/" target="_blank">Auto-Convert Twitter followers [free tool] </a><br></li>
+<li><a href="http://www.entrepreneur.com/article/246690" target="_blank">How to Grow a Company From $100 to $400 Million </a><br></li>
+<li><a href="http://www.extendslogic.com/business/jobs-to-be-done-cancel-interviews/" target="_blank">Doing SaaS Cancellation Interviews </a><br></li>
+<li><a href="http://www.fastcompany.com/3036672/hit-the-ground-running/what-we-learned-from-sending-1000-cold-emails" target="_blank">What We Learned From Sending 1,000 Cold Emails </a><br></li>
+<li><a href="http://www.forbes.com/sites/hughmcintyre/2014/07/22/streaming-concerts-for-free-helps-future-ticket-sales/#33e3bbf31e37" target="_blank">Streaming Concerts for Free Helps Future Ticket Sales </a><br></li>
+<li><a href="http://www.forbes.com/sites/jaysondemers/2014/06/25/100-killer-ideas-for-your-social-media-content/#61ebc5b62f3a" target="_blank">100 Killer Ideas For Your Social Media Content </a><br></li>
+<li><a href="http://www.forbes.com/sites/sujanpatel/2015/05/06/how-to-use-the-powered-by-growth-hack-to-boost-conversions/#3f38df164931" target="_blank">How To Use The ‘Powered By’ Growth Hack </a><br></li>
+<li><a href="http://www.formstack.com/blog/2015/industries-increase-conversion-rates/" target="_blank">How 5 Industries Increased Form Conversions by 21–400% in One Year </a><br></li>
+<li><a href="http://www.getambassador.com/blog/word-of-mouth-marketing-statistics" target="_blank">40+ Word-of-Mouth Marketing Statistics </a><br></li>
+<li><a href="http://www.getelastic.com/how-walmart-cas-responsive-redesign-boost-conversion-by-20/" target="_blank">How Walmart.ca’s Responsive Redesign Boost Conversion by 20% </a><br></li>
+<li><a href="http://www.getvero.com/resources/email-segmentation" target="_blank">How We Use Segmentation to Send Better Emails </a><br></li>
+<li><a href="http://www.getvero.com/resources/guides/evernote-onboarding" target="_blank">Evernote’s Simple But Useful Onboarding Emails </a><br></li>
+<li><a href="http://www.getvero.com/resources/retention-email-inspiration" target="_blank">15 Retention Emails to Reduce Churn </a><br></li>
+<li><a href="http://www.getvero.com/resources/twitter-lead-generation-cards/" target="_blank">How to Collect Emails Addresses on Twitter </a><br></li>
+<li><a href="http://www.getvero.com/resources/udemy" target="_blank">How Udemy Generates More Revenue with Smart A/B Testing </a><br></li>
+<li><a href="http://www.groovehq.com/blog/brian-wong-kiip-founder-interview" target="_blank">How ToTurn An Idea Into A $20M/Year Business </a><br></li>
+<li><a href="http://www.groovehq.com/blog/conversion-rate-optimization-wins-of-2015" target="_blank">Our 8 Biggest Conversion Optimization Wins of 2015 </a><br></li>
+<li><a href="http://www.groovehq.com/blog/first-year" target="_blank">From Zero to $30k/Month in Under a Year </a><br></li>
+<li><a href="http://www.groovehq.com/blog/grasshopper-david-hauser-interview" target="_blank">How Grasshopper Scrapped Their Way To $30M+ In Annual Revenue </a><br></li>
+<li><a href="http://www.groovehq.com/blog/growing-a-business-to-100k" target="_blank">From Zero to $100k/month in 2 Years </a><br></li>
+<li><a href="http://www.growfastlabs.com/viralhero/types-of-viral-marketing/viral-communication-marketing/" target="_blank">Viral Communication Marketing Hacks </a><br></li>
+<li><a href="http://www.growfastlabs.com/viralhero/viral-marketing-basics/user-experience-viral-marketing/" target="_blank">User Experience vs. Viral Marketing </a><br></li>
+<li><a href="http://www.growhack.com/2012/11/places-to-start-acquiring-users/#.V6ATLfmLTmg" target="_blank">How to get people to find out about your product </a><br></li>
+<li><a href="http://www.helpscout.net/blog/pricing-strategies/" target="_blank">10 Timeless Strategies to Increase Sales </a><br></li>
+<li><a href="http://www.helpscout.net/blog/pricing-strategies/" target="_blank">10 Timeless Strategies to Increase Sales </a><br></li>
+<li><a href="http://www.helpscout.net/blog/viral-marketing/" target="_blank">A Scientific Take on Viral Marketing </a><br></li>
+<li><a href="http://www.helpscout.net/blog/writing-job-posting/" target="_blank">Unconventional Ways to Improve Every Job Posting </a><br></li>
+<li><a href="http://www.helpscout.net/consumer-behavior/" target="_blank">10 Ways to Convert More Customers </a><br></li>
+<li><a href="http://www.hey.press/" target="_blank">Find relevant journalists for your startup </a><br></li>
+<li><a href="http://www.holler.com/lead-magnet-bible/" target="_blank">29 Killer Bribes To Grow Your Email List </a><br></li>
+<li><a href="http://www.hubspot.com/sales/email-open-rates-report" target="_blank">How To Get Your Sales Emails Opened </a><br></li>
+<li><a href="http://www.insidesales.com/insider/lead-management/sales-psychology-self-selectiong-get-there-first/" target="_blank">Psychology, Self-Selection, and “Getting There First” </a><br></li>
+<li><a href="http://www.internetretailer.com/2010/03/31/don-t-go" target="_blank">Decrease in cart abandonment of 4–8% </a><br></li>
+<li><a href="http://www.internetretailer.com/2011/10/26/low-prices-and-free-shipping-make-prosperous-holidays" target="_blank">Low prices and free shipping make for prosperous holidays </a><br></li>
+<li><a href="http://www.jonloomer.com/2014/01/28/website-custom-audiences-facebook/" target="_blank">Target Visitors with Facebook Ads </a><br></li>
+<li><a href="http://www.linkedin.com/pulse/hierarchy-engagement-sarah-tavel" target="_blank">The Hierarchy of Engagement </a><br></li>
+<li><a href="http://www.marketingcloud.com/blog/active-audiences-research/" target="_blank">Combining Email + Facebook Ads Reached Customers Who Are 22% More Likely to Purchase </a><br></li>
+<li><a href="http://www.marketingexperiments.com/blog/analytics-testing/3-email-a-b-tests-firm-foundation.html" target="_blank">Learn from 3 A/B test results to set a firm foundation for your next campaign </a><br></li>
+<li><a href="http://www.marketingexperiments.com/blog/research-topics/landing-page-optimization-research-topics/how-many-columns-webpages.html" target="_blank">How many columns should you use on a landing page? </a><br></li>
+<li><a href="http://www.markinblog.com/sales-techniques/" target="_blank">Psychological Techniques Encouraging Customers to Buy More </a><br></li>
+<li><a href="http://www.matthewbarby.com/google-plus-traffic-generation/" target="_blank">Why Google Plus is a Great Traffic Generation Source </a><br></li>
+<li><a href="http://www.matthewwoodward.co.uk/experiments/3-killer-exit-popup-case-studies/" target="_blank">3 Killer Exit Popup Case Studies </a><br></li>
+<li><a href="http://www.matthewwoodward.co.uk/experiments/case-study-how-to-increase-video-conversion/" target="_blank">How To Increase Video Conversion </a><br></li>
+<li><a href="http://www.matthewwoodward.co.uk/experiments/gingers-vs-blondes-vs-brunettes/" target="_blank">CTR +40%. Proof That Gingers Are Taking Over The World </a><br></li>
+<li><a href="http://www.nateliason.com/lifestyle-business/" target="_blank">$58,150 in 5 Months </a><br></li>
+<li><a href="http://www.nichepursuits.com/self-publish-a-book-on-amazon/" target="_blank">23 Steps to Launching a Kindle eBook That Makes Over $100 a Day </a><br></li>
+<li><a href="http://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank">How Users Read on the Web </a><br></li>
+<li><a href="http://www.nngroup.com/articles/scrolling-and-attention/" target="_blank">Scrolling and Attention </a><br></li>
+<li><a href="http://www.poweredbysearch.com/blog/12-growth-hackers-were-asked-what-growth-hack-are-you-most-proud-of/" target="_blank">12 Growth Hackers Were Asked, “What Growth Hack Are You Most Proud Of?” </a><br></li>
+<li><a href="http://www.priceintelligently.com/blog/bid/190607/Unlock-Price-Sensitivity-s-Profitable-Surprise" target="_blank">Unlock Price Sensitivity’s Profitable Surprise </a><br></li>
+<li><a href="http://www.prodpad.com/2016/06/ux-new-user-onboarding-extending-trial/" target="_blank">The UX Behind Our Magically Extending Free Trial </a><br></li>
+<li><a href="http://www.psychologytoday.com/blog/quilted-science/200910/will-you-read-post" target="_blank">How Asking Questions Changes Behavior? </a><br></li>
+<li><a href="http://www.quicksprout.com/2012/02/13/10-ways-to-get-more-traffic-attention-and-higher-rankings-through-social-sharing/" target="_blank">10 Ways Getting More Traffic, Attention, and Higher Rankings </a><br></li>
+<li><a href="http://www.quicksprout.com/2012/11/26/how-to-convert-blog-readers-into-customers/" target="_blank">How to Convert Blog Readers Into Customers </a><br></li>
+<li><a href="http://www.quicksprout.com/2013/05/23/the-power-of-the-nudge-how-to-convert-visitors-into-customers/" target="_blank">How to Convert Visitors Into Customers </a><br></li>
+<li><a href="http://www.quicksprout.com/2013/06/27/what-converts-better-free-trial-versus-money-back-guarantee/" target="_blank">Free Trial or Money Back Guarantee? </a><br></li>
+<li><a href="http://www.quicksprout.com/2013/09/09/7-simple-ab-tests-that-can-increase-conversions-by-10-or-more/" target="_blank">A/B Tests That Can Increase Conversions by 10% or More </a><br></li>
+<li><a href="http://www.quicksprout.com/2014/03/12/how-to-use-google-suggest-to-grow-your-long-tail-traffic/" target="_blank">How to Use Google Suggest to Grow Your Long Tail Traffic </a><br></li>
+<li><a href="http://www.quicksprout.com/2015/08/10/dont-waste-your-time-6-ways-to-be-more-efficient-on-social-media/" target="_blank">6 Ways to Be More Efficient on Social Media </a><br></li>
+<li><a href="http://www.quicksprout.com/2015/08/26/be-a-better-copywriter-7-lessons-from-4-legendary-books/" target="_blank">7 Lessons From 4 Legendary Books </a><br></li>
+<li><a href="http://www.quicksprout.com/2015/12/18/5-content-creation-tactics-that-will-amplify-your-contents-reach/" target="_blank">5 Content Creation Tactics </a><br></li>
+<li><a href="http://www.quicksprout.com/2016/01/01/8-psychological-principles-thatll-double-your-sales/" target="_blank">8 Psychological Principles That’ll Double Your Sales </a><br></li>
+<li><a href="http://www.quicksprout.com/double-your-conversions-in-30-days/" target="_blank">Double Your Conversions In 30 Days </a><br></li>
+<li><a href="http://www.quicksprout.com/the-complete-guide-to-understand-customer-psychology-chapter-5/" target="_blank">Understanding Consumer Psychology </a><br></li>
+<li><a href="http://www.quicksprout.com/university/how-to-create-an-expert-roundup-blog-post/" target="_blank">How To Create An Expert Roundup Blog-post </a><br></li>
+<li><a href="http://www.quora.com/What-are-some-growth-hacks-for-B2B-saas-companies" target="_blank">What are some growth hacks for B2B SaaS companies? </a><br></li>
+<li><a href="http://www.referralcandy.com/blog/ultimate-storytelling-guide-infographic/" target="_blank">Storytelling for Brands </a><br></li>
+<li><a href="http://www.robbierichards.com/seo/16-explosive-content-promotion-strategies" target="_blank">Explosive Content Promotion Strategies </a><br></li>
+<li><a href="http://www.scu.edu/media/college-of-arts-and-sciences/psychology/documents/Burger-JPSP-1986.pdf" target="_blank">Increasing Compliance by Improving the Deal </a><br></li>
+<li><a href="http://www.searchenginejournal.com/advanced-guide-youtube-seo/128847/2/" target="_blank">The Advanced Guide to YouTube SEO </a><br></li>
+<li><a href="http://www.searchenginejournal.com/wasting-adwords-budget-lessons-2000-adwords-audits/162413/" target="_blank">Lessons from 2,000+ AdWords Audits </a><br></li>
+<li><a href="http://www.shopify.com/blog/10747977-how-to-grow-your-ecommerce-business-without-new-customers" target="_blank">How To Grow Your Ecommerce Business Without New Customers </a><br></li>
+<li><a href="http://www.shopify.com/blog/12385217-the-beginners-guide-to-simple-a-b-testing" target="_blank">The Beginner’s Guide to Simple A/B Testing </a><br></li>
+<li><a href="http://www.shopify.com/enterprise/76901379-7-ways-to-convert-holiday-shoppers-with-the-twitter-buy-button" target="_blank">7 Ways to Convert Holiday Shoppers With the Twitter ‘Buy’ Button </a><br></li>
+<li><a href="http://www.siegemedia.com/strategy/increase-website-traffic" target="_blank">How To Increase Website Traffic By 250,000+ Monthly Visits </a><br></li>
+<li><a href="http://www.simplifyinginterfaces.com/2012/12/07/how-we-increased-landing-page-conversion-from-5-to-55-3/" target="_blank">How to increase landing page conversion from 5% to 55%? </a><br></li>
+<li><a href="http://www.slideshare.net/Leananalytics/lean-analytics-workshop-from-lean-startup-conf" target="_blank">Lean Analytics workshop </a><br></li>
+<li><a href="http://www.slideshare.net/LImarketingsolutions/15-tips-for-compelling-company-updates" target="_blank">15 Tips for Compelling Company Updates on LinkedIn </a><br></li>
+<li><a href="http://www.slideshare.net/lincolnmurphy/growth-hackingb2bsaasmarketing" target="_blank">21 Actionable and Unique B2B SaaS Growth Hacks </a><br></li>
+<li><a href="http://www.slideshare.net/mattangriffel/29-growth-hacking-quick-wins" target="_blank">29 Growth Hacking Quick Wins </a><br></li>
+<li><a href="http://www.smartinsights.com/managing-digital-marketing/growth-hacking/10-commandments-growth-hacking/" target="_blank">The 10 commandments of Growth Hacking </a><br></li>
+<li><a href="http://www.socialmediatoday.com/marketing/what-netflix-has-learned-about-how-viewers-respond-images-study" target="_blank">How Viewers Respond to Images </a><br></li>
+<li><a href="http://www.socialquant.net/5-ways-to-get-clicks-on-your-twitter-posts/" target="_blank">5 Ways Getting Clicks on Your Twitter Posts </a><br></li>
+<li><a href="http://www.startup-marketing.com/the-startup-pyramid/" target="_blank">The Startup Pyramid </a><br></li>
+<li><a href="http://www.statisticbrain.com/youtube-statistics/" target="_blank">YouTube mobile growth hack </a><br></li>
+<li><a href="http://www.styla.com/blog/how-to-skyrocket-facebook-reach-by-190-in-3-months-graziashop-case-study/" target="_blank">How To Skyrocket Facebook Reach By 190% In 3 Months </a><br></li>
+<li><a href="http://www.trueship.com/blog/2015/08/19/what-consumers-want-from-ecommerce-returns/#.VvE-oOIrJD-" target="_blank">What Consumers Want From Ecommerce Returns </a><br></li>
+<li><a href="http://www.upwordsem.com/how-to-hack-facebook-ads-down-to-0-005-per-engagement/" target="_blank">How to Hack Facebook Ads Down to $0.005 Per Click </a><br></li>
+<li><a href="http://www.whichtestwon.com/test/the-count-is-on/" target="_blank">The Count Is On! Or Don’t Count On It? </a><br></li>
+<li><a href="http://www.wired.co.uk/article/buzzfeed" target="_blank">How BuzzFeed mastered social sharing </a><br></li>
+<li><a href="http://www.youtube.com/watch?v=7eoQCJMX1kk&feature=youtu.be" target="_blank">$60k pricing mistake </a><br></li>
+<li><a href="http://www.youtube.com/watch?v=9PTT5Kb6610" target="_blank">Hack offline word of mouth </a><br></li>
+<li><a href="http://www.youtube.com/watch?v=qvkpUlRQ4W0" target="_blank">Growth Hacker Marketing, Growing Your Product </a><br></li>
+<li><a href="http://www.youtube.com/watch?v=sioZd3AxmnE" target="_blank">The Apple positioning formula </a><br></li>
+<li><a href="http://www.youtube.com/watch?v=U1Do6tyffE0" target="_blank">Daily meetings hack </a><br></li>
+<li><a href="http://youarenotsosmart.com/2011/10/05/the-benjamin-franklin-effect/" target="_blank">The Ben Franklin effect </a><br></li>
+<li><a href="http://zapier.com/blog/marketing-tools/" target="_blank">8 Unconventional Ways to Put Yourself into a Successful Marketer’s Mindset </a><br></li>
 
-<b>Implementation:</b>
-
-Find a relevant subreddit for your product or post in the /r/startups with an overview of what your product aims to do.
-Ask for feedback on the idea and any particular features that people would like to see.
-Engage within the comments and compile all of the feedback into a manageable format. You could consider using Google Forms for quick multiple choice questions.
-Direct anyone that seemed interested to leave their details with you for future updates on the product's progress (you could use a data capture form on a landing page or just message the Reddit user).
-When it comes to launch time, get in touch with these individuals and explain the changes you made (if any) based on their feedback. Give them early access as a thank you, ideally for free when possible, and ask if they'd share it with their peers.<br><br>
-<b>Useful Tools:</b> Google Forms, Survey Monkey, Reddit.</p><br><br></li>
-  
-
-<li>
-<h3 style="tbd">  
-Content Marketing in 60 Seconds
-</h3>
-<p style="why"><b>Why:</b>
-If SEO plays an important part in improving visibility for your online business, then a proper content strategy is the key to success. Optimized content helps improve your SEO, and will drive long-term sustainable traffic.
-<br><br>
-<b>Implementation:</b>
-<ol>
-<li>Define your ideal customer and keep her in mind when writing content</li>
-<li>Set a goal of publishing 1 post / working day. That’s 20 posts / month.</li>
-<li>Use Hubspot’s content title generator to create titles with high CTRs.</li>
-<li>Write long content as Google tends to prefer 500+ words per post.</li>
-<li>Analyze your Search Console and Google Keyword Planner for high traffic keywords.</li>
-<li>Insert an email catcher or sign-up form at the bottom of each article.</li>
-<li>Create unique titles and meta description, and use H1, H2 and H3 tags.</li>
-<li>Keep the URL string clear (e.g. yoursite.com/blog/10-tips-to-sell-more-dog-food</li>
-<li>Spend 2x more time on distributing your post than writing it</li>
-<li>Gather link juice via guest posts, product reviews, press releases, etc.</li>
-<li>Submit best posts to content aggregators and platforms like Hacker News and Reddit</li>
-</ol>
-</p><br><br></li>
-
-<li>
-<h3 style="tbd">   
-PR in 60 seconds
-</h3>
-<p style="why"><b>Why:</b>
-True relationships with journalists at top-notch magazines, tv-stations and online blogs are invaluable. Image you could pitch any story and get 50,000 visitors to your website the next day. PR is still important, but how do you get to the big guns when you’re just starting out.
-<br><br>
-<b>Implementation:</b>
-<ol>
-<li>Start connecting with individual writers on Twitter that write content in your industry</li>
-<li>Follow them and start providing value to the online community that they form a part. Drop your $0.02 on some of their posts and try to get a conversation going.</li>
-<li>Send an email asking what the best way to get in touch is when publishing a release and what their criteria are.</li>
-<li>Keep your pitch to the point</li>
-<li>Save big stories for the major journals, and start working your way up. First contact blogs with hardly any traffic, and go for larger publications once you’re starting to get noticed.</li>
-<li>Work your network and see who has connections to the big journalists. What can you do for them to get an introduction?</li>
-</ol>
-</p><br><br></li>
-
-<li>
-<h3 style="tbd">   
-How Do You Increase Your Quality Score?
-</h3>
-<p style="why"><b>Why:</b>
-The Quality Score of your Google Ads account is an estimate determined by Google of your ad copy, keywords, and landing pages. Higher quality ads can lead to lower cost per click and higher click-through rate (CTR). It’s an indication of the health of your ads, but should not be the only focus of your account manager.
-<br><br>
-<b>Implementation:</b> If you treat your ads account like a garden, then you’re quality scores will go up. To maintain a garden you have to give your flowers water, weed the ground, and remove dead leafs. Your Google Ads account deserves the same daily attention. So what should you do?
-<ol>
-<li><b>Keyword Research</b> - Find long-tail keyword opportunities by regularly checking your Google Search Console, Google Keyword Planner and Google Ads Search Queries. Another way to find new keyword is to enable Dynamic Search Ads on all relevant web pages.</li>
-<li><b>Keyword Organization</b> - Keep your campaign and adgroup structure organized. A lot of agencies like to apply the tactic of one keyword per adgroup, but this is definitely no guarantee for higher performances. Instead, keep around 10 to 30 relevant keywords together in one adgroup and have at least three ads per adgroup</li>
-<li><b>Negative Keyword Lists</b></li> - Everyday go through your search queries to find new search terms that are irrelevant and add them to your negative keyword list. This is the only way to clean your account and stop paying for irrelevant search terms. 
-<li><b>Split Test Ad Copy</b></li> - Each adgroup should have three or more ads with different copy that you rotate to identify the best performers. Once you have enough data, then remove the poor performing ads and write new copy based on the top performance. This cycle of testing can go on forever.
-<li><b>Optimize Landing Pages</b></li> - Leading your traffic to your homepage is an absolute killer. If you do not have a separate landing page per campaign or even adgroup, then you’re missing out big time. The H1 and H2 of your landing page should be very similar to the ad, and the content or offering on the page should be relevant to your ad target audience.
-</ol>
-</p><br><br></li>
-  
+ </h3> 
       </ul>
      
    
