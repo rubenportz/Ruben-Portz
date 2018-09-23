@@ -1,60 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-  <style>
-    .large-header {
-   position: relative;
-   width: 100%;
-   background: #;
-   overflow: hidden;
-   background-size: cover;
-   background-position: center center;
-   z-index: 1;
-}
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Animated Background Header</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-.demo .large-header {
-   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
-}
+  
+      <link rel="stylesheet" href="css/style.css">
 
-.main-title {
-   position: absolute;
-   margin: 0;
-   padding: 0;
-   color: #F9F1E9;
-   text-align: center;
-   top: 50%;
-   left: 50%;
-   -webkit-transform: translate3d(-50%, -50%, 0);
-   transform: translate3d(-50%, -50%, 0);
-}
-
-.demo .main-title {
-   text-transform: uppercase;
-   font-size: 4.2em;
-   letter-spacing: 0.1em;
-}
-
-.main-title .thin {
-   font-weight: 200;
-}
-
-@media only screen and (max-width: 768px) {
-   .demo .main-title {
-      font-size: 3em;
-   }
-}
-  </style>
+  
 </head>
+
 <body>
 
-<div class="container demo">
+  <div class="container demo">
    <div class="content">
-      <div id="large-header" class="large-header">
-         <canvas id="demo-canvas"></canvas>
+      <div id="large-header" class="large-header" style="height: 1743px;">
+         <canvas id="demo-canvas" width="980" height="1743"></canvas>
          <h1 class="main-title"><span class="thin">Explore</span> Space</h1>
       </div>
    </div>
 </div>
-</body>
-</html>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
+
+  
+
+    <script src="js/index.js"></script>
+
+
+
+
+
+
+
+</body></html>
