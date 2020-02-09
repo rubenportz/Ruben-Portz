@@ -4,13 +4,22 @@
   width:800px;
   margin:0 auto;
   position:relative;
-  }
+}
+
+#header {
+  margin-top:5px;
+}
+
+#footer {
+  height: 50px;
+  margin-top: -50px;
+}
 
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #fff;
-    height: 100%;
-    margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  height: 100%;
+  margin: 0;
 }
 
 p {
@@ -57,9 +66,4 @@ a {
 
 a:hover {
   color:#c00;
-}
-
-#footer {
-  height: 50px;
-  margin-top: -50px;
 }
