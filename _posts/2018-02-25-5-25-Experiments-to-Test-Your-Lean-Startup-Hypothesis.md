@@ -4,7 +4,6 @@ date: 2018-06-10 10:10:00
 category: [startup, MVP, Growth]
 ---
 
-25 Experiments to Test Your Lean Startup Hypothesis
 1.	Interviews
 2.	Landing pages
 3.	A/B tests
@@ -30,5 +29,3 @@ category: [startup, MVP, Growth]
 23.	Why similar startups failed
 24.	Field visits
 25.	Etnography
-
-
