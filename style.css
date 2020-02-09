@@ -18,10 +18,12 @@
   }
 }
 
-#container {
-  /* width:100%; */
-  margin:0 25%;
-  position:relative;
+@media only screen and (min-device-width : 1025px) {
+  #container {
+    /* width:100%; */
+    margin:0 25%;
+    position:relative;
+  }
 }
 
 #header {
