@@ -1,76 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
 
-* {
-padding:0;
-margin:0;
-}
-
-a {
-color:#4863A0;
-text-decoration:none;
-}
-
-a:hover {
-color:#c00;
-}
-
 #container {
 width:800px;
 margin:0 auto;
 position:relative;
 }
-
-#container h1 {
-font-size:40px;
-font-weight:normal;
-letter-spacing:-1px;
-width:600px;
-padding:20px 0 25px 0;
-}
-
-#container h1 a {
-color:#222;
-text-decoration:none;
-}
-
-#container h1 a:hover {
-color:#c00;
-}
-
-
-#content {
-float:left;
-width:600px;
-color: #333;
-}
-
-#content h2 {
-font-size:24px;
-margin-bottom: 18px;
-line-height: 26px;
-font-weight:bold;
-letter-spacing:-1px;
-color: #333;
-}
-
-#content h2 a {
-color:#222;
-text-decoration:none;
-}
-
-#content h2 a:hover {
-}
-
-#content h2.archive {
-font-weight:normal;
-font-size:22px;
-color:#1c1c1c;
-padding:0;
-margin:5px 0 20px 0;
-border:none;
-text-align:left;
-}
-
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -87,4 +21,38 @@ p {
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
+}
+
+h1 {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 18px;
+  line-height: 26px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 18px;
+  line-height: 26px;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+a {
+  color:#4863A0;
+}
+
+a:hover {
+  color:#c00;
 }
