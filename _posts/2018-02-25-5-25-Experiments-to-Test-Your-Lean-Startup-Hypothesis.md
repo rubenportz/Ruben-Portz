@@ -1,5 +1,5 @@
 ---
-title: 25 Experiments to Test Your Lean Startup Hypothesis
+title: 25 Experiments to Test Your Startup Idea
 date: 2018-06-10 10:10:00
 category: [startup, MVP, Growth]
 ---
