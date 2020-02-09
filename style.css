@@ -47,7 +47,7 @@
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 h1 {
@@ -59,7 +59,13 @@ h1 {
   letter-spacing: -1px;
 }
 h2,
-h3,
+h3 {
+  color: #222;
+  font-size: 22px;
+  margin-bottom: 18px;
+  line-height: 26px;
+  letter-spacing: -1px;
+}
 h4,
 h5,
 h6 {
