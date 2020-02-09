@@ -2,7 +2,7 @@
 
 @media (max-width : 770px) {
   #container {
-    width:100%;
+    /* width:100%; */
     margin:0 50px;
     position:relative;
   }
@@ -10,7 +10,7 @@
 
 @media (max-width : 320px) {
   #container {
-    width:100%;
+    /* width:100%; */
     margin:0 10px;
     position:relative;
   }
