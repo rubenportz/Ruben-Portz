@@ -4,8 +4,6 @@
   width:800px;
   margin:0 auto;
   position:relative;
-  height: 100%;
-  margin: 0;
 }
 
 #header {
@@ -20,7 +18,7 @@
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #fff;
-  min-height: 500px;
+
 }
 
 p {
