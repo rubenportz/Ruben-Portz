@@ -6,12 +6,17 @@ body {
 }
 
 p {
-  color: #222;
-  font-size: 22px;
+  color: #333;
+  font-size: 20px;
   margin-bottom: 18px;
   line-height: 26px;
   font-weight: 0;
   letter-spacing: -1px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0p
 }
 
 h1 {
@@ -36,7 +41,7 @@ h3 {
   font-size: 22px;
   margin-bottom: 18px;
   line-height: 26px;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: -1px;
 }
 
