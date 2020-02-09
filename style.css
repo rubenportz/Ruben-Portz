@@ -71,15 +71,20 @@ border:none;
 text-align:left;
 }
 
-.main {font-size: 20px;padding-bottom: 20px;}
-
-.main h3 {
-font-size: 20px;
-font-weight: bold;
-margin:0 0 15px 0;
-}
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #fff;
+}
+
+p {
+  color: #333;
+  font-size: 25px;
+  margin-bottom: 18px;
+  line-height: 26px;
+  letter-spacing: -1px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
 }
