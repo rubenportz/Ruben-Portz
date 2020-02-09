@@ -28,4 +28,4 @@ category: [startup, MVP, Growth]
 22.	Expert interview
 23.	Why similar startups failed
 24.	Field visits
-25.	Etnography
+25.	Ethnography
