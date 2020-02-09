@@ -90,14 +90,14 @@ search_omit: true
         <a name="anchor">
           <h1>Essays</h1>
         </a>
-  	   	{% for post in site.posts limit:5 %}
-        <ul>
-          <li>
-        		<a href="{{ post.url }}">
-        	    <h3>{{ post.title }}</h3>
-        		</a>
-          </li>
-        </ul>
+  	   	{% for post in site.posts %}
+          <ul>
+            <li>
+          		<a href="{{ post.url }}">
+          	    <h3>{{ post.title }}</h3>
+          		</a>
+            </li>
+          </ul>
   		  {% endfor %}
     </div>
   	<!-- {% include button.html %} -->
