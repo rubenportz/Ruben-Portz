@@ -3,133 +3,105 @@ layout: default
 search_omit: true
 ---
 <!DOCTYPE html>
-<html>	
-<style>
+<html>
+  <style>
 
- a:hover .top, a:hover .bottom, a:hover .right{
-  border: 0.5em solid #007BB6;
-}
+   a:hover .top, a:hover .bottom, a:hover .right{
+    border: 0.5em solid #007BB6;
+  }
 
- a:hover .top:after, a:hover .bottom:after, a:hover .right:after {
-  border-top: 0.5em solid #007BB6;
-  border-right: 0.5em solid #007BB6;
-}
+   a:hover .top:after, a:hover .bottom:after, a:hover .right:after {
+    border-top: 0.5em solid #007BB6;
+    border-right: 0.5em solid #007BB6;
+  }
 
-.bottom {
-  display: inline-block;
-  width: 4em;
-  height: 4em;
-  border: 0.5em solid #333;
-  border-radius: 50%;
-  margin-left: 0.75em;
-}
+  .bottom {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border: 0.5em solid #333;
+    border-radius: 50%;
+    margin-left: 0.75em;
+  }
 
-.bottom:after {
-  content: '';
-	display: inline-block;
-  margin-top: 0.6em;
-  width: 1.4em;
-  height: 1.4em;
-  border-top: 0.5em solid #333;
-  border-right: 0.5em solid #333;
-  -moz-transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
-}
+  .bottom:after {
+    content: '';
+  	display: inline-block;
+    margin-top: 0.6em;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 0.5em solid #333;
+    border-right: 0.5em solid #333;
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  .readtime {
+  	font-size: 15px;
+  	}
 
-	
-	
-	
-	
-	
-	
-.readtime {
-	font-size: 15px;
-	}
-	
-ul {
-	list-style-type: none;
-	columns:3; 
-	margin: 0;
-	padding: 0;
-}
+  ul {
+  	list-style-type: none;
+  	columns:3;
+  	margin: 0;
+  	padding: 0;
+  }
 
-@media all and (max-width: 1000px)  {	
-ul {
-	list-style-type: none;
-	columns:2; 
-	margin: 0;
-	padding: 0;
-	limit:3
-}}
-@media all and (max-width: 600px) {	
-ul {
-	list-style-type: none;
-	columns:1; 
-	margin: 0;
-	padding: 0;
-	limit:2
-}}
+  @media all and (max-width: 1000px)  {
+  ul {
+  	list-style-type: none;
+  	columns:2;
+  	margin: 0;
+  	padding: 0;
+  	limit:3
+  }}
+  @media all and (max-width: 600px) {
+  ul {
+  	list-style-type: none;
+  	columns:1;
+  	margin: 0;
+  	padding: 0;
+  	limit:2
+  }}
 
-li {
-	padding: 5px;
-}
-	
-	
-</style>
-
-
-	
-	
+  li {
+  	padding: 5px;
+  }
+  </style>
   <body>
-	<div style="height:100px">
-	  <h1 style="text-align:center">The Growth Marketing Blog</h1>
-	  <h5 style="text-align:center">Your weekly dose of predictive, marketing, and all things that drive growth.</h5>
-	  </div>
-	 
-	  <body>
-  
-
- 
-		  
-		   <div style="margin:80px 0 20px">
-	  {% include categories.html %}
-	  </div>
- 
-		    
-  
-  <center><div style="margin:30px 0; display: inline-block;
-  vertical-align: middle; text-align: center;
-  margin: 6em 0 0 0;
-  padding: 0;">
-    <a href="#anchor" style="display: inline-block;
-  border-radius: 50%;">
-      <span class="bottom"></span>
-    </a>
-    </div></center>
-  
-		  
-	  
-    <div class="container" style="margin-top:150px">
-	    <center><a name="anchor"><h1>Recent Essays</h1></a>
-	    
-	   	{% for post in site.posts limit:5 %}
-		<a href="{{ post.url }}">    
-	    	<h3>{{ post.title }}</h3> 
-		</a>
-	
-		{% endfor %} 	</center>	    
+    <div style="height:100px">
+      <h1 style="text-align:left">Essays on growth engineering, product marketing and startups</h1>
+      <!-- <h5 style="text-align:center">Your weekly dose of predictive, marketing, and all things that drive growth.</h5> -->
     </div>
-	  
-
-	     {% include button.html %}
-	   <br><br><br><br>
-	  	   
-	
-	  
-	  {% include form.html %}
- 
+    <!-- <div style="margin:80px 0 20px">
+      {% include categories.html %}
+    </div> -->
+    <!-- <center>
+      <div style="margin:30px 0; display: inline-block;
+                  vertical-align: middle; text-align: center;
+                  margin: 6em 0 0 0;
+                  padding: 0;">
+        <a href="#anchor" style="display: inline-block;border-radius: 50%;">
+          <span class="bottom"></span>
+        </a>
+      </div>
+    </center> -->
+    <div class="container" style="margin-top:150px">
+        <a name="anchor">
+          <h1>Essays</h1>
+        </a>
+  	   	{% for post in site.posts limit:5 %}
+        <ul>
+          <li>
+        		<a href="{{ post.url }}">
+        	    <h3>{{ post.title }}</h3>
+        		</a>
+          </li>
+        </ul>
+  		  {% endfor %}
+    </div>
+  	<!-- {% include button.html %} -->
+  	<br><br><br><br>
+    <!-- {% include form.html %} -->
   </body>
-	
-
 </html>

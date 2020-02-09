@@ -3,23 +3,23 @@ layout: default
 search_omit: true
 ---
 <!DOCTYPE html>
-<html>	
+<html>
   <body>
-	
-    {% include search.html %} 
-	  
+
+    {% include search.html %}
+
 	  <div style="margin:50px 0 100px 0">
-		   {% include categories.html %} 
+		   {% include categories.html %}
 	  </div>
-	
-    <h2 style="text-align:center">Posts</h2>	  
+
+    <h2 style="text-align:left">Posts</h2>	  
     <div class="container">
 	   	{% for post in site.posts %}
-		<a href="{{ post.url }}">    
-	    	<h3>{{ post.title }}</h3> 
+		<a href="{{ post.url }}">
+	    	<h3>{{ post.title }}</h3>
 		</a>
-	
-		{% endfor %} 		    
+
+		{% endfor %}
     </div>
-  </body>	
+  </body>
 </html>
