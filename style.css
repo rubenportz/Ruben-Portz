@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
 
+@media (max-width : 770px) {
+  #container {
+    width:100%;
+    margin:0 50px;
+    position:relative;
+  }
+}
+
+@media (max-width : 320px) {
+  #container {
+    width:100%;
+    margin:0 10px;
+    position:relative;
+  }
+}
+
 #container {
-  width:100%;
+  /* width:100%; */
   margin:0 25%;
   position:relative;
 }
