@@ -1,127 +1,13 @@
-<style type="text/css">
-* {box-sizing: border-box;}
-.wrapper {
-  max-width: 1400px;
-  max-width: 75%;
-  margin: 75px auto 0 auto;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-}
-
-a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.wrapper > div {
-  color: black;
-}
-
-
-  .wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-.footer-logo {
-  grid-column: 1;
-  grid-row: 1;
-}
-.copyright {
-  grid-column: 2;
-  grid-row: 1;
-  font-size:12px;
-  vertical-align: middle;
-  padding-top:15px;
-}
-.social {
-  grid-column: 4;
-  grid-row: 1;
-  text-align:center;
-  padding-top:15px;
-  font-weight: bold;
-  font-size:14px;
-  align:left;
-}
-
-@media all and (max-width: 1400px)  {
-  .wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-.footer-logo {
-  grid-column: 1;
-  grid-row: 1;
-}
-.copyright {
-  grid-column: 2;
-  grid-row: 1;
-  font-size:12px;
-  vertical-align: middle;
-  padding-top:15px;
-}
-.social {
-  grid-column: 3;
-  grid-row: 1;
-  text-align:center;
-  padding-top:15px;
-  font-weight: bold;
-  font-size:14px;
-  align:left;
-}
-
-@media all and (max-width: 1100px)  {
-  .wrapper {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(50px, auto);
-}
-.footer-logo {
-  grid-column: 1;
-  grid-row: 1;
-  vertical-align: middle;
-  text-align:center;
-}
-.copyright {
-  grid-column: 1;
-  grid-row: 3;
-  font-size:12px;
-  vertical-align: middle;
-  text-align:center;
-}
-.social {
-  grid-column: 1;
-  grid-row: 2;
-  text-align:center;
-  font-weight: bold;
-  font-size:14px;
-  vertical-align: middle;
-  text-align:center;
-}
-  }
-
-
-
-</style>
-
-
-
-  <div id="footer">
-
-    <div class="wrapper">
-      <div class="copyright">Ruben Portz &copy; 2017<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></div>
-      <div class="social">{% include svg-icons.html %}</div>
-      {% include analytics.html %}
+<div id="footer">
+  <div class="wrapper">
+    <div class="copyright">Ruben Portz &copy; 2017
+      <script>
+        new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());
+      </script>
     </div>
-   </div>
+    <div class="social">
+      {% include svg-icons.html %}
+    </div>
+    {% include analytics.html %}
+  </div>
+</div>
