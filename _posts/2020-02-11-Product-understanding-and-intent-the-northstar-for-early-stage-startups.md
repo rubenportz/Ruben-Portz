@@ -4,8 +4,7 @@ date: 2020-02-11 19:10:00
 category: [startup, MVP, Growth]
 ---
 
-IMAGE
-
+<img src="/images/Intent-and-product-understanding.jpg" alt="Product understanding and intent - the Northstar for early-stage startup" style="width:100%;">
 
 
 <h2>Consumer products are hard</h2>
