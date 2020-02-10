@@ -92,6 +92,9 @@ h3 {
   letter-spacing: -1px;
 }
 
+a:link {
+  color:#4863A0;
+}
 
 a {
   color:#4863A0;

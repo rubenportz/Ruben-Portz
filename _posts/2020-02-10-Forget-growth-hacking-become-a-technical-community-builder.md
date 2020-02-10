@@ -9,7 +9,7 @@ It's rare that you interview someone and although it's not a great fit right now
 In that situation, I think it's only fair to take time and give a sense of direction. I understand that big corporates avoid this at all cost for legal reasons. However, that's probably a guarantee someone will never get back to them once they're actually a perfect fit.
 
 <h2>Technical Marketing + Community Building</h2>
-I've put below a menu of resources for developing yourself further as a technical marketer. I've recommended these to my team, people I didn't hire, or anyone who's willing to listing to me.
+I've put below a menu of resources for developing yourself further as a technical marketer. I've recommended these to my team, people we didn't hire, or anyone who's willing to listing to me.
 
 This recommendation is focussed on smaller growth teams (<10 people), and especially for those who've just graduated and need to be multi-facetted in their growth role no matter the industry.
 
@@ -24,16 +24,18 @@ My recommendation starts by developing deep expertise in the next five topics an
 </ol>
 
 <h2>The foundation of a T-shaped marketer</h2>
-In my opinion, the associated sources are a great start to build a solid foundation in these 5 areas. I really recommend going through as many tutorials and blog posts as possible as well as find additional practice material and real-life examples if you're interested in product marketing.
+In my opinion, the associated sources are a great start to build a solid foundation in these 5 areas. As you probably noticed, it is heavily focused on analytics. The reason for this is that proper marketing and product improvement is a combination of intuition, execution and quantitative analysis. If you cannot do the latter you will most definitely not hit full potential.
 
-The best people I know, have made it a routine to keep developing themselves on a daily basis and to never stop learning via books, blogs, online courses or youtube videos.
+I really recommend going through as many tutorials and blog posts as possible on these topics as well as find additional practice material and real-life examples.
+
+The best people I know, have made it a routine to keep developing themselves on a daily basis and to never stop learning via books, blogs, forums, online courses or youtube videos.
 
 <h2>Relevant product marketing resources</h2>
-Once you've got the above fundamentals checked, it's time to become a T-shaped marketer. For the next ten years, I think that creative and communication skills will become far more important than technical skills. This is because a lot of technical complexity will become code-less.
+Once you've got the above fundamentals checked, it's time to become a T-shaped marketer. For the next ten years, I think that creative and communication skills will become far more important than technical skills. This is because a lot of technical complexity will become code-less and democratized.
 
-It's up to you to find a healthy mix between psychological, technical, business and creative skills and understanding.
+It's up to you to find a healthy mix between psychological, technical, business and creative skills and understanding. But definitely don't go 100% in on technical as we've passed that decade already. It's the execution and creativity that's really going to win now.
 
-Here's a great list of additional resources for the ones leaning a bit more towards growth hacking. But before you read it I want to emphasise that community building is probably the most important skill to learn. The only problem is that it takes time and can only be learned by doing.
+If you do lean a bit more towards growth hacking then here's a great list for you. But before you read it I want to emphasise that community building is probably the most important skill to learn. The only problem is that it takes time and can only be learned by doing. So don't just go after the hot term of the day, but focus on long-term sustainable strategies too.
 
 - <a href="http://growthtools.io/">Growth tools and resources</a>
 - Growth strategy including sales funnels, growth loops, CAC, LTV, experimentation (AAARRR) and business models
