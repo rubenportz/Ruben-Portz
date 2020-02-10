@@ -16,11 +16,11 @@ This recommendation is focussed on smaller growth teams (<10 people), and especi
 My recommendation starts by developing deep expertise in the next five topics and from there on building a broader knowledge base in a variety of other areas among community building.
 
 <ol>
-<li>1. Google Analytics | <a href="www.simoahava.com">Blog</a>, <a href="https://analytics.google.com/analytics/academy/">Tutorial</a>, <a href="https://www.analyticsmania.com/web-analytics-resources/">Resources</a> & another <a href="https://www.webucator.com/tutorial/advanced-google-analytics/index.cfm">Tutorial</a> with special focus on all admin settings such as views, goals, funnels, custom dimensions & metrics, eCommerce, filters as well as the new web+app and attribution functionality.</li>
-<li>2. Tag Manager | <a href="https://www.simoahava.com/">Blog</a> and <a href="https://analytics.google.com/analytics/academy/course/5">Tutorials</a> to know every capability especially custom variables, triggers and events.</li>
-<li>3. Data Studio | <a href="https://analytics.google.com/analytics/academy/course/10">Tutorials</a> to built data visualisations. You can use GA's sample data sets to play around.</li>
-<li>4. SQL Queries & Google BigQuery |  <a href="https://www.udemy.com/share/101WiwAksbdFdbQXo=/">Udemy course</a> and <a href="https://cloud.google.com/bigquery/docs/tutorials">Tutorials</a></li>
-<li>5. Technical SEO and Search Console | <a href="https://moz.com/blog">Blog</a>, <a href="https://moz.com/learn/seo">Tutorials</a>, <a href="https://support.google.com/webmasters/#topic=9428048">Search Console</a></li>
+<li>Google Analytics | <a href="www.simoahava.com">Blog</a>, <a href="https://analytics.google.com/analytics/academy/">Tutorial</a>, <a href="https://www.analyticsmania.com/web-analytics-resources/">Resources</a> & another <a href="https://www.webucator.com/tutorial/advanced-google-analytics/index.cfm">Tutorial</a> with special focus on all admin settings such as views, goals, funnels, custom dimensions & metrics, eCommerce, filters as well as the new web+app and attribution functionality.</li>
+<li>Tag Manager | <a href="https://www.simoahava.com/">Blog</a> and <a href="https://analytics.google.com/analytics/academy/course/5">Tutorials</a> to know every capability especially custom variables, triggers and events.</li>
+<li>Data Studio | <a href="https://analytics.google.com/analytics/academy/course/10">Tutorials</a> to built data visualisations. You can use GA's sample data sets to play around.</li>
+<li>SQL Queries & Google BigQuery |  <a href="https://www.udemy.com/share/101WiwAksbdFdbQXo=/">Udemy course</a> and <a href="https://cloud.google.com/bigquery/docs/tutorials">Tutorials</a></li>
+<li>Technical SEO and Search Console | <a href="https://moz.com/blog">Blog</a>, <a href="https://moz.com/learn/seo">Tutorials</a>, <a href="https://support.google.com/webmasters/#topic=9428048">Search Console</a></li>
 </ol>
 
 <h2>Never stop learning</h2>
