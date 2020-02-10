@@ -59,7 +59,7 @@ li {
   margin-bottom: 18px;
   line-height: 34px;
   letter-spacing: -1px;
-  display: block;
+  display:list-item
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
