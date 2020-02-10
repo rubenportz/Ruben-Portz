@@ -1,5 +1,5 @@
 ---
-title: Forget growth hacking: become a technical community builder
+title: Forget growth hacking become a technical community builder
 date: 2020-02-10 19:10:00
 category: [startup, MVP, Growth]
 ---
