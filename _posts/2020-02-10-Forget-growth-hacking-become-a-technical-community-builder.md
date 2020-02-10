@@ -4,9 +4,9 @@ date: 2020-02-10 19:10:00
 category: [startup, MVP, Growth]
 ---
 
-It's rare that you interview someone and although it's not a great fit right now, he or she is genuinely interested in knowing how to develop themselves to be ready one day.
+It's rare that you interview someone and although it's not a great fit right now, he or she is genuinely interested in knowing how to develop themselves to be ready in the future.
 
-In that situation, I think it's only fair to take time and give a sense of direction. I understand that big corporates avoid this at all cost for legal reasons, but that's probably a guarantee someone will not get back to them once they're actually ready for it.
+In that situation, I think it's only fair to take time and give a sense of direction. I understand that big corporates avoid this at all cost for legal reasons. However, that's probably a guarantee someone will never get back to them once they're actually a perfect fit.
 
 <h2>Technical Marketing + Community Building</h2>
 I've put below a menu of resources for developing yourself further as a technical marketer. I've recommended these to my team, people I didn't hire, or anyone who's willing to listing to me.
@@ -23,7 +23,7 @@ My recommendation starts by developing deep expertise in the next five topics an
 <li>Technical SEO and Search Console | <a href="https://moz.com/blog">Blog</a>, <a href="https://moz.com/learn/seo">Tutorials</a>, <a href="https://support.google.com/webmasters/#topic=9428048">Search Console</a></li>
 </ol>
 
-<h2>Never stop learning</h2>
+<h2>The foundation of a T-shaped marketer</h2>
 In my opinion, the associated sources are a great start to build a solid foundation in these 5 areas. I really recommend going through as many tutorials and blog posts as possible as well as find additional practice material and real-life examples if you're interested in product marketing.
 
 The best people I know, have made it a routine to keep developing themselves on a daily basis and to never stop learning via books, blogs, online courses or youtube videos.
