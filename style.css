@@ -88,11 +88,11 @@ h3 {
   font-size: 24px;
   margin-bottom: 32px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 400;
   letter-spacing: -1px;
 }
 
-h1 a:link a:visited {
+h3 a:link a:visited {
   color:#4863A0;
 }
 
