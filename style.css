@@ -67,18 +67,18 @@ li {
 
 h1 {
   color: #333;
-  font-size: 26px;
+  font-size: 35px;
   margin-bottom: 32px;
-  line-height: 26px;
+  line-height: 43px;
   font-weight: bold;
   letter-spacing: -1px;
 }
 
 h2 {
   color: #333;
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 32px;
-  line-height: 26px;
+  line-height: 32px;
   font-weight: bold;
   letter-spacing: -1px;
 }
@@ -86,19 +86,19 @@ h2 {
 /* list on index */
 h3 {
   color: #333;
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 32px;
-  line-height: 26px;
+  line-height: 30px;
   font-weight: 400;
   letter-spacing: -1px;
 }
 
 h3 a:link a:visited {
-  color:#4863A0;
+  color:#c00;
 }
 
 a {
-  color:#4863A0;
+  color:#c00;
 }
 
 a:hover {
