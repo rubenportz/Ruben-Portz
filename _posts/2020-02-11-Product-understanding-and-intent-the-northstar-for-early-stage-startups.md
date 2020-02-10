@@ -24,7 +24,7 @@ These metrics differ per business model and product, but he mentions to reckon w
 <li>“Signup rates as low as 1% (besides on homepages)”</li>
 <li>“Over 95% of your users are inactive on any given day”</li>
 <li>“50% of your users are forever alone”</li>
-<ul>
+</ul>
 
 <h2>Don’t take poor metrics as an excuse</h2>
 Although product ratios might seem terrible in the first days, weeks, months or even years (depending on your runway), there are plenty of big businesses that made it despite poor percentages. Look for instance at the number of Instagrammers who never followed anyone or post less than once a month (TechCrunch, March 2011).
