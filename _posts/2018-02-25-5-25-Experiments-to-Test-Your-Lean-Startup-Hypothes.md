@@ -4,10 +4,16 @@ date: 2020-02-10 19:10:00
 category: [startup, MVP, Growth]
 ---
 
+It's rare that you interview someone and although it's not a great fit right now, he or she is genuinely interested in knowing how to develop further.
 
+In that situation I think it's only fair to take time and give a sense of direction. I understand that big corporates avoid this at all cost for legal reasons, but that's probably a guarantee someone will not get back to them once they're actually ready for it.
 
+##Technical Marketing + Community Building
+I've put below a menu of resources for developing yourself further as a technical marketer. I've recommended these to my team, people I didn't hire, or anyone who's willing to listing to me.
 
-As Stephen mentioned, I've put below a menu of resources for developing yourself further as a technical marketer. We recommend this to everyone at Seneca, but I do think it is a very helpful skill set to have for any project at any company - not only at Seneca. I really recommend developing deep expertise in the next five topics and from there on building a broader knowledge base in a variety of other areas.
+This recommendation is focussed on smaller growth teams (<10 people). Especially if you need to be multi-facetted and have a growth mindset. No matter what industry you're in, these resources will be helpful at early-stage start-ups.
+
+I recommend developing deep expertise in the next five topics and from there on building a broader knowledge base in a variety of other areas among community building should be top of the list.
 
 1. Google Analytics | Blog, Tutorial, Resources & another Tutorial with special focus on all admin settings such as views, goals, funnels, custom dimensions & metrics, eCommerce, filters as well as the new web+app and attribution functionality.
 2. Tag Manager | Blog and Tutorials to know every capability especially custom variables, triggers and events.
