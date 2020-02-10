@@ -8,7 +8,7 @@ It's rare that you interview someone and although it's not a great fit right now
 
 In that situation, I think it's only fair to take time and give a sense of direction. I understand that big corporates avoid this at all cost for legal reasons. However, that's probably a guarantee someone will never get back to them once they're actually a perfect fit.
 
-<h2>Technical Marketing + Community Building</h2>
+<h2>Technical marketing + community building</h2>
 I've put below a menu of resources for developing yourself further as a technical marketer. I've recommended these to my team, people we didn't hire, or anyone who's willing to listing to me.
 
 This recommendation is focussed on smaller growth teams (<10 people), and especially for those who've just graduated and need to be multi-facetted in their growth role no matter the industry.
