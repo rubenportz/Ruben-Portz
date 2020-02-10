@@ -53,6 +53,18 @@ p {
   margin-inline-start: 0px;
 }
 
+li {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 18px;
+  line-height: 34px;
+  letter-spacing: -1px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+}
+
 h1 {
   color: #333;
   font-size: 26px;
@@ -64,19 +76,19 @@ h1 {
 
 h2 {
   color: #333;
-  font-size: 22px;
-  margin-bottom: 18px;
-  margin-top: 50px;
+  font-size: 25px;
+  margin-bottom: 32px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: -1px;
 }
 
 h3 {
-  font-size: 22px;
-  margin-bottom: 18px;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 32px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: -1px;
 }
 
