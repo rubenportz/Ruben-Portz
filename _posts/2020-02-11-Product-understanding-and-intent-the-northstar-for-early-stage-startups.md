@@ -4,7 +4,7 @@ date: 2020-02-11 19:10:00
 category: [startup, MVP, Growth]
 ---
 
-![Product understanding and intent - the Northstar for early-stage startups](/images/Intent-and-product-understanding.jpg)
+![Product understanding and intent - the Northstar for early-stage startups](/images/Intent-and-product-understanding.png)
 
 
 <h2>Consumer products are hard</h2>
@@ -55,7 +55,7 @@ Examples of what you could do if you’re selling a SaaS product to me is to off
 
 This might seem like a long approach, but it’s you’re only shot at standing out from the crowd at a very low cost.
 
-<center><i>“Offer a product with high value and a low learning curve, so that the audience has a high intent to start using it”</i></center>
+<center><p><i>“Offer a product with high value and a low learning curve, so that the audience has a high intent to start using it”</i></p></center>
 
 To do this successfully you need to understand all the little needs of your future user. The tricky part is that these might be slightly different in each country and culture. So it's important you’re either a user yourself or need to do significant market research in order to be able to provide quality content and get on the radar. As you cannot live in each nation, you'll have to do research.
 
@@ -72,7 +72,7 @@ I don’t think product understanding and intent are necessarily quantifiable, e
 <h2>Phase 2 - Adapt your product based on the intent & understanding</h2>
 If you manage to start offering a lot of value upfront, then at a certain point you start attracting organic visitors to your product and you’ll start getting a hefty user base.
 
-<center><i>“The main benefit of building awareness is the creation of relationships with individuals at scale. This is something that no competitor can steal away and even if your product fails you will have tonnes of relationships to build a new product for.”</i></center>
+<center><p><i>“The main benefit of building awareness is the creation of relationships with individuals at scale. This is something that no competitor can steal away and even if your product fails you will have tonnes of relationships to build a new product for.”</i></p></center>
 
 This user group will keep growing as you’re reaching more and more people and as a result will start forming segments.
 
