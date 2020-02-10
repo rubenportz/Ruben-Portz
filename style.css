@@ -92,6 +92,10 @@ h3 {
   letter-spacing: -1px;
 }
 
+h1 a:link a:visited {
+  color:#4863A0;
+}
+
 a {
   color:#4863A0;
 }
