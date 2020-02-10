@@ -85,7 +85,6 @@ h2 {
 
 /* list on index */
 h3 {
-  color: #333;
   font-size: 26px;
   margin-bottom: 32px;
   line-height: 30px;
@@ -93,12 +92,9 @@ h3 {
   letter-spacing: -1px;
 }
 
-h3 a:link a:visited {
-  color:#c00;
-}
 
 a {
-  color:#c00;
+  color:#4863A0;
 }
 
 a:hover {
