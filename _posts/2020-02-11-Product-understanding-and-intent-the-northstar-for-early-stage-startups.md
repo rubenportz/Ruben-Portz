@@ -1,11 +1,10 @@
 ---
-title: Product understanding and intent - the Northstar for early-stage startup
+title: Product understanding and intent - the Northstar for early-stage startups
 date: 2020-02-11 19:10:00
 category: [startup, MVP, Growth]
 ---
 
 <img src="/images/Intent-and-product-understanding.jpg" alt="Product understanding and intent - the Northstar for early-stage startup" style="width:100%;">
-
 
 <h2>Consumer products are hard</h2>
 Over the last four years I’ve worked on three products launching them in a total of over fifteen different countries.
