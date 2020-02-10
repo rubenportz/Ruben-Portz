@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: RubenPortz - Essays on growth engineering, product marketing and startups
+name: Essays on growth engineering, product marketing and startups
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -14,7 +14,7 @@ google_analytics: UA-113973427-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://rubenportz.com
+url: https://rubenportz.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
