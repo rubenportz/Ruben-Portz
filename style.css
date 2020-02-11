@@ -53,6 +53,18 @@ p {
   margin-inline-start: 0px;
 }
 
+i {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 18px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+}
+
 li {
   color: #333;
   font-size: 24px;
