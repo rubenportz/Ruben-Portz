@@ -1,16 +1,32 @@
----
-layout: default
----
-<article class="post">
-  <h1>
-    {{ page.title }}
-  </h1>
-  <div class="entry">
-    {{ content }}
-  </div>
-  Written on {{ page.date | date: "%B %e, %Y" }}
-  <br>
-  <br>
-  <br>
-  <br>
-</article>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+    {% include header.html %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  </head>
+  <body>
+    <div id="container">
+      <article class="post">
+        <h1>
+          {{ page.title }}
+        </h1>
+        <div class="entry">
+          {{ content }}
+        </div>
+        Written on {{ page.date | date: "%B %e, %Y" }}
+        <br>
+        <br>
+        <br>
+        <br>
+      </article>
+      {% include form.html %}
+    </div>
+  </body>
+  <footer>
+    {% include footer.html %}
+  </footer>
+</html>
