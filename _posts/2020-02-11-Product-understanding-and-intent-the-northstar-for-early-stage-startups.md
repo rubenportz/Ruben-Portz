@@ -4,7 +4,7 @@ date: 2020-02-11 19:10:00
 category: [startup, MVP, Growth]
 ---
 
-<img alt="Product understanding and intent - the Northstar for early-stage startups by Ruben Portz" src="/images/Intent-and-product-understanding.png" width="100%%">
+<img alt="Product understanding and intent - the Northstar for early-stage startups by Ruben Portz" src="/images/Intent-and-product-understanding.png" width="100%">
 
 
 <h2>Consumer products are hard</h2>
