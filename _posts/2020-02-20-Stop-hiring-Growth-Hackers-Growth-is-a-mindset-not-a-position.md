@@ -63,10 +63,12 @@ It’s a healthy long-term branding approach instead of a short-term transaction
 
 This team consists of four functions. All of them should heavily collaborate and iterate to take away as many user behaviour uncertainties as possible before starting to hard-code.
 
-<b>Interaction Designer:</b> creates the design strategy, identifies key interactions of the product, comes up with improvements and creates low-fidelity mockups for the user researcher to test and validate.
-<b>User Researcher:</b> documents the behaviors, needs, and motivations of users through research methods such as session recordings, heatmaps, interviews, surveys, participatory designs, usability sessions, and sentiment analysis across social. Most importantly, they will know your user the best.
-<b>Visual Designer:</b> creates high-fidelity designs that form the look and feel for every state of the app. They maintain the company’s style guide and translate the UX requirements from the interaction designer into a branded user interface.
-<b>Frontend Engineer:</b> implements the visual elements from the high-fidelity design taking into consideration the accessibility, consistency, performance, security and quality of code. You really want the frontend engineers to think from a user’s perspective and should thus be part of the UX team, not the engineering team.
+<ul>
+<li><b>Interaction Designer:</b> creates the design strategy, identifies key interactions of the product, comes up with improvements and creates low-fidelity mockups for the user researcher to test and validate.</li>
+<li><b>User Researcher:</b> documents the behaviors, needs, and motivations of users through research methods such as session recordings, heatmaps, interviews, surveys, participatory designs, usability sessions, and sentiment analysis across social. Most importantly, they will know your user the best.</li>
+<li><b>Visual Designer:</b> creates high-fidelity designs that form the look and feel for every state of the app. They maintain the company’s style guide and translate the UX requirements from the interaction designer into a branded user interface.</li>
+<li><b>Frontend Engineer:</b> implements the visual elements from the high-fidelity design taking into consideration the accessibility, consistency, performance, security and quality of code. You really want the frontend engineers to think from a user’s perspective and should thus be part of the UX team, not the engineering team.</li>
+</ul>
 
 <img alt="Structure your engineering team with backend engineers, devops engineers and data scientists by Ruben Portz" src="/images/growth-engineering-team-structure.png" width="100%">
 
