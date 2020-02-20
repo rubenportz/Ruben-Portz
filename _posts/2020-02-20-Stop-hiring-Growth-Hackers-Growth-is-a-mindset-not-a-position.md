@@ -70,7 +70,7 @@ This team consists of four functions. All of them should heavily collaborate and
 <li><b>Frontend Engineer:</b> implements the visual elements from the high-fidelity design taking into consideration the accessibility, consistency, performance, security and quality of code. You really want the frontend engineers to think from a user’s perspective and should thus be part of the UX team, not the engineering team.</li>
 </ul>
 
-<img alt="Structure your engineering team with backend engineers, devops engineers and data scientists by Ruben Portz" src="/images/growth-engineering-team-structure.png" width="100%">
+<img alt="Structure your engineering team with backend engineers, devops engineers and data scientists by Ruben Portz" src="/images/engineering-devop-frontend.png" width="100%">
 
 <h2>Backend Engineers</h2>
 Not much to say here to be honest. The backend team codes most of the logic and specialize in data structures and code efficiency. Early-stage startups generally don’t hire for the middle stack, which might be something to consider. There’s quite some specialisation one can do on the glue that connects frontend with the backend - think of input handling, https protocols, rest APIs, etc. That would free up mental space for the backend engineers to focus on the core of the app, minimising the risk of building in unnecessary complexity and increasing the output velocity.
@@ -86,5 +86,5 @@ To sum it all up - engineering, marketing, research and data are all cohesive pa
 
 So before you start hiring Growth Hackers, realize that growth is not a position. It’s a mindset and a way of working. If you implement the right processes and organizational structure, then you have everything in-house to become one growth hacking machine.
 
-P.S.
+P.S.<br>
 Big thank you to <a href="https://www.linkedin.com/in/lisa-makarova">Lisa Makarova</a> for providing feedback on earlier versions of this essay!
