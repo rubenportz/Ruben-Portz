@@ -16,7 +16,7 @@ Secondly, which will be the emphasis of this essay, is that the most common star
 
 <h2>SaaS</h2>
 <img alt="Saas business model sales funnel by Ruben Portz" src="/images/SaaS-sales-funnel.png" width="100%">
-I tried to display an average funnel that consists of around 14 steps. However, iit goes without saying that there are many variations in designing the order of steps.
+I tried to display an average funnel that consists of around 14 steps. However, it goes without saying that there are many variations in designing the order of steps.
 
 The diagram becomes most useful when you’re tracking the delta between two steps over time. This will help to steer your team towards the biggest gains as well as to alert when big spikes or drops happen.
 
@@ -35,6 +35,8 @@ The cornerstone of the model are the review and results engine. This has both a 
 The ecommerce model looks again very similar to the SaaS model, but slightly more simplistic. The product generally has a faster route to revenue. Moreover, retention is less dependent on the core value of the tech, but more on the (email) marketing around the platform and the quality of products offered for sale.
 
 Nevertheless, there’s added complexity surrounding the delivery and return logistics that cannot be overlooked when designing the business.
+
+To conclude, no matter at what business model you're working it is important to understand the dynamics and relationships between stages. That way you can work on the parts of the business that will yield the most. 
 
 
 
