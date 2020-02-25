@@ -36,7 +36,7 @@ The eCommerce model looks again very similar to the SaaS model, but slightly mor
 
 Nevertheless, there’s added complexity surrounding the delivery and return logistics that cannot be overlooked when designing the business.
 
-To conclude, no matter at what business model you're working it is important to understand the dynamics and relationships between stages. That way you can work on the parts of the business that will yield the most. 
+To conclude, no matter what business model you're working on, it is important to understand the dynamics and relationships between stages. That way you can work on the parts of the business that will yield the most. 
 
 
 
