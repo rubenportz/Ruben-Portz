@@ -1,6 +1,6 @@
 ---
 title: Solve your user’s problem
-date: 2020-03-09 10:10:00
+date: 2020-03-10 10:10:00
 category: [startup, MVP, Growth]
 ---
 
