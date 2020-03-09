@@ -30,7 +30,7 @@ I’ve decided to start the series covering the User as I think it’s more impo
 
 So, let’s get started!
 
-Phase 1: Solve your user’s problem (coming soon)
-Phase 2: Product science not ego (coming soon)
-Phase 3: The power law of distribution (coming soon)
-Phase 4: A framework for startup pricing (coming soon)
+Phase 1: Solve your user’s problem (coming soon)<br>
+Phase 2: Product science not ego (coming soon)<br>
+Phase 3: The power law of distribution (coming soon)<br>
+Phase 4: A framework for startup pricing (coming soon)<br>
