@@ -16,7 +16,7 @@ Daily releases are great, but only if you know what product to build. If you’r
 
 I feel that the best advice is therefore around the user and creating the best possible solution for their problem. This might be a product, but could also be a process improvement or a shift in mindset in many cases as well. 
 
-<h2><b>Lesson #2:</b> Don't be selfish and build the product <i>you</i> want, but build the products <i>your users</i> want.</h2>
+<h2><b>Lesson #2:</b> Don't be selfish and build the product you want, but build the products your users want.</h2>
 
 People pay companies to solve their problems. Thinking in solutions causes you to address their issues. But you can’t solve every problem and need to pick your battle wisely.
 
