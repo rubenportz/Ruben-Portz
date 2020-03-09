@@ -6,11 +6,9 @@ category: [startup, MVP, Growth]
 
 When asking what it takes to create a profitable company with $10M+ in annual revenue, the startup community tends to give one of three answers: 
 
-<ol>
-<li>Build great product</li>
-<li>Find product-market fit</li>
-<li>Growth hacking</li>
-</ol>
+1. Build great product<br>
+2. Find product-market fit<br>
+3. Growth hacking<br>
 
 In the past 4 years I’ve had the chance to work with companies on a journey towards that horizon. During this time I’ve obsessively followed all the silver-bullet growth tactics, probably have had hundreds of in-depth conversations about product-market fit, and learned how to code in order to understand the benefits of technical marketing.
 
