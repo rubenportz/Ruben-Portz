@@ -29,7 +29,7 @@ I’ve decided to start the series covering the <i>User</i> as I think it’s mo
 So, let’s get started!
 
 <b>Introduction</b><br>
-Phase 1: Solve your user’s problem (coming soon)<br>
+<a href="https://rubenportz.com/Solve-your-users-problem/">Phase 1: Solve your user’s problem</a><br>
 Phase 2: Product science not ego (coming soon)<br>
 Phase 3: The power law of distribution (coming soon)<br>
 Phase 4: A framework for startup pricing (coming soon)<br>
