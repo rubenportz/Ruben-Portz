@@ -60,7 +60,7 @@ The general hypothesis of the magic moment is that there is a difference in beha
 <h2>Examples of magic moments</h2>
 <ol>
   <li><b>Facebook:</b> connect with 7 friends in first 10 days</li>
-  <li><b>Dropbox:</b> Save 1 file in folder on 1 device</li>
+  <li><b>Dropbox:</b> save 1 file in folder on 1 device</li>
   <li><b>Twitter:</b> follow 30 users</li>
   <li><b>Slack:</b> 2000 messages sent within a team</li>
   <li><b>LinkedIn:</b> X connections in Y days</li>
