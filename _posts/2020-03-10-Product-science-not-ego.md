@@ -16,11 +16,11 @@ In this essay, I want to touch upon a few frameworks that I've come across and t
 The first framework I've based on the jobs-to-be-done concept. This traditional framework forces you to look at a product from the perspective of the user. The key question the theory asks is "What job your product is hired to do?".
 It forces you to think in the first principles of product design and stay completely neutral of any solutions. Henry Ford didn't think about the "job" as a "faster horse" but as "getting from Point A to Point B as quickly as possible." Your product is hired to fulfil a job which can be defined in a job statement.
 
-<center><i>Job Statement = Action + object + context</center></i>
+<center><i>Job Statement = Action + object + context</i></center>
 
 The solution to the job statement comes with certain expectations. These can relate to cost, potential errors, quality, dependability, availability, ease of use, maintainability, and so fort. It's important to research the importance of each desired outcome as they will shape the product's capabilities. You can begin this research by listing clearly defined outcome statements and then identifying how satisfied users are with their current product or service.
 
-<center><i>Outcome Statement = Improvement + measure + object of control</center></i>
+<center><i>Outcome Statement = Improvement + measure + object of control</i></center>
 
 By doing so, you'll quickly end up with a long list of product attributes. But it turns out there's a hidden paradox here. Products with the most features trying to do everything are rarely the ones winning. On the contrary, products like Gmail, Slack and the iPod have won their markets by initially focusing on only three core product features.<br>
 <b>Gmail:</b> search, easy-to-use-interface, 1GB of free storage<br>
