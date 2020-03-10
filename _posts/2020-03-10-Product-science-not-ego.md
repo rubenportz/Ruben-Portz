@@ -66,7 +66,7 @@ The general hypothesis of the magic moment is that there is a difference in beha
   <li><b>LinkedIn:</b> X connections in Y days</li>
 </ul>
 
-To find your magic moment you'll have to compare cohorts of 'power' users with other users on several metrics in order to identify an inflexion point on one of your usage metrics. Five steps that can help you do perform this analysis are:
+To find your magic moment you'll have to compare cohorts of 'power' users with other users on several metrics in order to identify an inflexion point on one of your usage metrics. Five steps that can help you perform this analysis are:
 <ol>
 <li>Define when a 'power' user becomes a power user;</li>
 <li>Define your cohort of 'power' users;</li>
