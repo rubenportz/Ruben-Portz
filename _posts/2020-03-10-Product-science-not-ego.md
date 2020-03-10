@@ -34,7 +34,7 @@ By doing so, you'll quickly end up with a long list of product attributes. But i
 Limiting your job-to-be-done to three core attributes has extremely valuable benefits:<br>
 <ol>
 <li>You are forcing yourself to find the true essence and value of the product;</li>
-<li>Instead of ticking the box on a range of feature, you can now do these three capabilities very, very well and not worry about anything else;</li>
+<li>Instead of ticking the box on a range of features, you can now do these three capabilities very, very well and not worry about anything else;</li>
 <li>You'll beat the market by being the best at the three things your users care about the most.</li>
 </ol>
 
