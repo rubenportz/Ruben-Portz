@@ -1,5 +1,5 @@
 ---
-title: Product science not ego - outcome-driven approach to building products
+title: An outcome-driven approach to building products
 date: 2020-03-10 10:10:00
 category: [startup, MVP, Growth]
 ---
