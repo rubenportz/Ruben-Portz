@@ -1,5 +1,5 @@
 ---
-title: Business model funnels - 20+ SaaS & Marketplace KPIs that matter 
+title: Product funnel KPIs that matter to your business
 date: 2020-02-24 10:10:00
 category: [startup, MVP, Growth]
 ---
