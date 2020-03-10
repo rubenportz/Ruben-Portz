@@ -67,7 +67,7 @@ Facebook could for instance:
   
 Once you've quantified the magic moment for your product, you would want to steer your new user onboarding towards reaching that moment. This means both reducing the time duration and activity (e.g. clicks, page views, etc.) required to reach it.
 
-<b>Tying it all together</b>
+<b>Tying it all together</b><br>
 I want to conclude by emphasizing that there's no "I" in product. The area of product management is well researched with tonnes of frameworks and case studies to tap into. Proper user research and product planning can almost fully replace intuition and ego-driven product decisions. The above mentioned 'Jobs to be done' and 'Flow' frameworks are just the tip of the iceberg. The disciplines of design thinking, user experience, and product management have significantly evolved and their frameworks should be applied to help you get your users hooked.
 
 In this series of essays I've now touched upon the relationship between a product and its users, but similarly, there is a relation between the revenue model and distribution channel which I will cover next.
