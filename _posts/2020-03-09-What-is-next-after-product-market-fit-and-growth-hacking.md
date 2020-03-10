@@ -24,7 +24,7 @@ There are three key points I want to narrow down to and which are illustrated in
 
 <img alt="The foundation of a startup consists of it's strategy, team and processes to find fit between its users, product, revenue model and distribution channel" src="/images/Business-model-fit.png" width="100%">
 
-I’ve decided to start the series covering the <i>User</i> as I think it’s more important to focus on the people who buy the product than the product itself.
+I’ve decided to start the series covering the User as I think it’s more important to focus on the people who buy the product than the product itself.
 
 So, let’s get started!
 
