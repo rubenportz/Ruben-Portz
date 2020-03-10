@@ -1,5 +1,5 @@
 ---
-title: 25 experiments to test your startup idea
+title: Product marketing experiments to test your startup idea
 date: 2018-06-10 10:10:00
 category: [startup, MVP, Growth]
 ---
