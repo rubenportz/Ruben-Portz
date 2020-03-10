@@ -1,6 +1,6 @@
 ---
 title: Product science not ego
-date: 2020–03–11 11:10:00
+date: 2020–03–09 11:10:00
 category: [startup, MVP, Growth]
 ---
  
