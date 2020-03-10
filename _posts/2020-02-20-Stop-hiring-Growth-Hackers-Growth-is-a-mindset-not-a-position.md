@@ -1,5 +1,5 @@
 ---
-title: Stop hiring Growth Hackers - growth is a mindset, not a position
+title: Growth is a mindset, not a position
 date: 2020-02-20 19:10:00
 category: [startup, MVP, Growth]
 ---
