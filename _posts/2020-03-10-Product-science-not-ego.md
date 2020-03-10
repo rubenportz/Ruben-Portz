@@ -29,14 +29,14 @@ By doing so, you'll quickly end up with a long list of product attributes. But i
 <li><b>iPod:</b> pocket-size, hours of music storage, easy synchronization with Mac</li>
 </ul>
 
+<img alt="Pie diagram showcasing the job to be done theory with three core features by Ruben Portz" src="/images/Job-to-be-done.png" width="100%">
+
 Limiting your job-to-be-done to three core attributes has extremely valuable benefits:<br>
 <ol>
 <li>You are forcing yourself to find the true essence and value of the product;</li>
 <li>Instead of ticking the box on a range of feature, you can now do these three capabilities very, very well and not worry about anything else;</li>
 <li>You'll beat the market by being the best at the three things your users care about the most.</li>
 </ol>
-
-<img alt="Pie diagram showcasing the job to be done theory with three core features by Ruben Portz" src="/images/Job-to-be-done.png" width="100%">
 
 Once you've built the core product your team can shift towards the earlier mentioned 'forgotten product areas'. And as it's much cheaper to keep a customer than acquire a new customer, the north star metric of this shift should be linked to retention.
 
