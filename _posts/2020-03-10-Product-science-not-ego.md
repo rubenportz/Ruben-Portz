@@ -58,32 +58,32 @@ Applying the theory of flow should help more users reach the so-called Aha-momen
 The general hypothesis of the magic moment is that there is a difference in behaviour during the early stages of the product that makes 'power' users keep using the product, and 'casual' users churn.
 
 <h2>Examples of magic moments</h2>
-<ol>
+<ul>
   <li><b>Facebook:</b> connect with 7 friends in first 10 days</li>
   <li><b>Dropbox:</b> save 1 file in folder on 1 device</li>
   <li><b>Twitter:</b> follow 30 users</li>
   <li><b>Slack:</b> 2000 messages sent within a team</li>
   <li><b>LinkedIn:</b> X connections in Y days</li>
-</ol>
+</ul>
 
 To find your magic moment you'll have to compare cohorts of 'power' users with other users on several metrics in order to identify an inflexion point on one of your usage metrics. Five steps that can help you do perform this analysis are:
-<ul>
+<ol>
 <li>Define when a 'power' user becomes a power user;</li>
 <li>Define your cohort of 'power' users;</li>
 <li>Define points in time since sign-up on which we compare 'power' and other users;</li>
 <li>Define the metrics on which we will compare 'power' and other users - e.g. demographics, usage metrics, behavioural metrics;</li>
 <li>Compare your 'power' and other users one metric at a time on the defined points in time.</li>
-</ul>
+</ol>
 
 Facebook could for instance:
-<ul>
+<ol>
 <li>Define cohorts of users by day of sign-up;</li>
 <li>Define 'power' users as users who were still active after 90 days;</li>
 <li>Define their comparison points in time as Day 1, Day 2, Day 5, Day 7, Day 10, Day 14, Day 28, Day 50, and Day 90;</li>
 <li>Define one of the comparison metrics as 'Friends connected';</li>
 <li>Plot two graphs comparing the number of friends connected on days since sign-up from 'power' users and other users;</li>
 <li>Notice that 'power' users connected with 7 friends in the first 10 days whereas other users seem to never reach 7 friends or take much longer than 10 days.</li>
-</ul>
+</ol>
   
 Once you've quantified the magic moment for your product, you would want to steer your new user onboarding towards reaching that moment. This means both reducing the time duration and activity (e.g. clicks, page views, etc.) required to reach it.
 
