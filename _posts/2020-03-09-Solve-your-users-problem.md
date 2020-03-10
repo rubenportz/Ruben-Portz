@@ -62,6 +62,6 @@ Once you’ve implemented your user feedback engine and have iterated through se
 
 <a href="https://rubenportz.com/What-is-next-after-product-market-fit-and-growth-hacking/">Introduction</a><br>
 <b>Phase 1: Solve your user’s problem</b><br>
-Phase 2: Product science not ego (coming soon)<br>
+<a href="https://rubenportz.com/Product-science-not-ego/">Phase 2: Product science not ego</a><br>
 Phase 3: The power law of distribution (coming soon)<br>
 Phase 4: A framework for startup pricing (coming soon)<br>
