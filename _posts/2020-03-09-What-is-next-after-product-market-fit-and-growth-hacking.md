@@ -30,6 +30,6 @@ So, let’s get started!
 
 <b>Introduction</b><br>
 <a href="https://rubenportz.com/Solve-your-users-problem/">Phase 1: Solve your user’s problem</a><br>
-Phase 2: Product science not ego (coming soon)<br>
+<a href="https://rubenportz.com/Product-science-not-ego/">Phase 2: Product science not ego</a><br>
 Phase 3: The power law of distribution (coming soon)<br>
 Phase 4: A framework for startup pricing (coming soon)<br>
