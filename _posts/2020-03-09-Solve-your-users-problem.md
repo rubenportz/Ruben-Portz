@@ -1,5 +1,5 @@
 ---
-title: Solve your user’s problem
+title: Define, find and solve your user’s problem
 date: 2020-03-10 10:10:00
 category: [startup, MVP, Growth]
 ---
