@@ -23,14 +23,20 @@ The solution to the job statement comes with certain expectations. These can rel
 <center><i>Outcome Statement = Improvement + measure + object of control</i></center>
 
 By doing so, you'll quickly end up with a long list of product attributes. But it turns out there's a hidden paradox here. Products with the most features trying to do everything are rarely the ones winning. On the contrary, products like Gmail, Slack and the iPod have won their markets by initially focusing on only three core product features.<br>
-<b>Gmail:</b> search, easy-to-use-interface, 1GB of free storage<br>
-<b>Slack:</b> search, synchronization, simple file-sharing<br>
-<b>iPod:</b> pocket-size, hours of music storage, easy synchronization with Mac<br>
+<ul>
+<li><b>Gmail:</b> search, easy-to-use-interface, 1GB of free storage</li>
+<li><b>Slack:</b> search, synchronization, simple file-sharing</li>
+<li><b>iPod:</b> pocket-size, hours of music storage, easy synchronization with Mac</li>
+</ul>
 
 Limiting your job-to-be-done to three core attributes has extremely valuable benefits:<br>
-You are forcing yourself to find the true essence and value of the product;<br>
-Instead of ticking the box on a range of feature, you can now do these three capabilities very, very well and not worry about anything else;<br>
-You'll beat the market by being the best at the three things your users care about the most.<br>
+<ol>
+<li>You are forcing yourself to find the true essence and value of the product;</li>
+<li>Instead of ticking the box on a range of feature, you can now do these three capabilities very, very well and not worry about anything else;</li>
+<li>You'll beat the market by being the best at the three things your users care about the most.</li>
+</ol>
+
+<img alt="Pie diagram showcasing the job to be done theory with three core features by Ruben Portz" src="/images/Job-to-be-done.png" width="100%">
 
 Once you've built the core product your team can shift towards the earlier mentioned 'forgotten product areas'. And as it's much cheaper to keep a customer than acquire a new customer, the north star metric of this shift should be linked to retention.
 
@@ -38,11 +44,16 @@ To retain customers you'll have to get more new users through the onboarding pha
 
 The clearest theory on this topic that I've come across is Csikszentmihalyi's theory of flow. Flow is the state of concentration and engagement that can be achieved when completing a task that challenges one's skills.
 
+<img alt="Flow theory applied to products by Ruben Portz" src="/images/Flow.png" width="100%">
+
 For new products, this means that you should not overwhelm your users with too many options, features and UI complexities. New users' product understanding will be minimal and you should thus limit the cognitive load and click-activity required to get to the next onboarding stage.
 
 Limiting your product to three core features will make this easier to start with. But even in that case, you might want to give new users a different product experience than power users.
 
 Applying the theory of flow should help more users reach the so-called Aha-moment. This is the magic moment from which a casual user exploring your product turns into a hardcore, loyal user that returns frequently.
+
+<img alt="Graph showcasing the product onboarding steps for a user to reach the magic moment or aha moment by Ruben Portz" src="/images/Magic-moment.png" width="100%">
+
 
 The general hypothesis of the magic moment is that there is a difference in behaviour during the early stages of the product that makes 'power' users keep using the product, and 'casual' users churn.
 
