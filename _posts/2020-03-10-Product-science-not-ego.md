@@ -57,6 +57,15 @@ Applying the theory of flow should help more users reach the so-called Aha-momen
 
 The general hypothesis of the magic moment is that there is a difference in behaviour during the early stages of the product that makes 'power' users keep using the product, and 'casual' users churn.
 
+<h2>Examples of magic moments</h2>
+<ol>
+  <li><b>Facebook:</b> connect with 7 friends in first 10 days</li>
+  <li><b>Dropbox</b> Save 1 file in folder on 1 device</li>
+  <li><b>Twitter</b> follow 30 users</li>
+  <li><b>Slack</b> 2000 messages sent within a team</li>
+  <li><b>LinkedIn</b> X connections in Y days</li>
+</ol>
+
 To find your magic moment you'll have to compare cohorts of 'power' users with other users on several metrics in order to identify an inflexion point on one of your usage metrics. Five steps that can help you do perform this analysis are:
 <ul>
 <li>Define when a 'power' user becomes a power user;</li>
