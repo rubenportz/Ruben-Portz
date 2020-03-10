@@ -1,5 +1,5 @@
 ---
-title: Product understanding and intent - the Northstar for early-stage startups
+title: Product understanding and intent are a marketers key metrics
 date: 2020-02-11 19:10:00
 category: [startup, MVP, Growth]
 ---
