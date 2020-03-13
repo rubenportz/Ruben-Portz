@@ -15,7 +15,7 @@ The solution to creating a sustainable traffic source is by structurally testing
 <h2>The repeatable and scalable acquisition process</h2>
 Here's how you can do this in practice both for new products or in my case, expanding an existing product into new markets.
 
-From the top of your mind, list the top 10 sources from which you think you can reach your users. This can be both online as offline.
+<b>Step 1:</b> From the top of your mind, list the top 10 sources from which you think you can reach your users. This can be both online as offline.
 
 Once done, go straight into those forums, platforms or locations and collect from at least 50 potential users (five if B2B) an answer to the following two questions:
 <ol>
@@ -23,11 +23,11 @@ Once done, go straight into those forums, platforms or locations and collect fro
 <li>What online discussion forums, platforms or websites do you use to engage with fellow << demographic or job title >>, and how frequently do you go there?</li>
 </ol>
 
-From the answers, you should be able to narrow down where your users hang out and how they inform themselves to approximately six channels.
+<b>Step 2:</b> From the answers, you should be able to narrow down where your users hang out and how they inform themselves to approximately six channels.
 
 <img alt="Marketing acquisition channels by Ruben Portz" src="/images/Acquisition-channels.png" width="100%">
 
-From those six channels, we now want to know the finer details around cost, targeting, control, input time, output time and scalability.
+<b>Step 3:</b> From those six channels, we now want to know the finer details around cost, targeting, control, input time, output time and scalability.
 
 You can either determine this based on your past experience and expertise. But I highly recommend actually spending 2–3 days trying out all six options simultaneously. This has worked best for the teams I've worked with.
 
@@ -37,7 +37,7 @@ That way you get a true sense of the potential and difficulty of each channel. O
 
 <img alt="Marketing channel mix to order channels by cost, targeting, control, input time, output time and scalability by Ruben Portz" src="/images/Marketing-channel-mix.png" width="100%">
 
-From the distribution channel mix, we should now be able to pinpoint one or two channels that were mentioned by our users and that we found had a good shot at delivering results.
+<b>Step 4:</b> From the distribution channel mix, we should now be able to pinpoint one or two channels that were mentioned by our users and that we found had a good shot at delivering results.
 
 Most $100M+ companies have actually grown by using only a limited number of channels, which is commonly referred to as the 80:20 rule.
 
@@ -45,7 +45,9 @@ Most $100M+ companies have actually grown by using only a limited number of chan
 
 Approximately 20% of the effort produces 80% of the results. Whereas the last 20% of the results consume 80% of the effort.
 
-When talking about results I would care the most about the cost of acquisition and total lifetime value of the users that come via a particular channel. This will have a direct impact on your sustainability and automatically exclude any channels with a high CAC. You might not find the exact CAC right away if you've got long sales cycles, but a healthy dose of common sense will take you a long way when planning your acquisition strategy.
+When talking about results I would care the most about the cost of acquisition and total lifetime value of the users that come via a particular channel. This will have a direct impact on your sustainability and automatically exclude any channels with a high CAC. 
+
+You might not find the exact CAC right away if you've got long sales cycles, but a healthy dose of common sense will take you a long way when planning your acquisition strategy.
 
 <img alt="Line displaying that cheaper marketing channels generally work well for users with lower life-time value by Ruben Portz" src="/images/LTV-CAC-line.png" width="100%">
 
@@ -53,7 +55,7 @@ Because startups face limited time and resources we want to be sure that we're f
 
 <img alt="Marketing channel distribution histogram showcasing that 20% of the marketing effort produces 80% of the results by Ruben Portz" src="/images/Distribution-curve.png" width="100%">
 
-It's still important to be active on the other channels as any marketing channel will saturate over time. This doesn't mean that it will shut down overnight, but rather that it becomes extremely inefficient to generate the same results as before.
+<b>Step 5:</b> It's still important to be active on the other channels as any marketing channel will saturate over time. This doesn't mean that it will shut down overnight, but rather that it becomes extremely inefficient to generate the same results as before.
 
 Therefore, it's advised to place a few eggs in channels that aren't working yet but could transform into your main channel down the line. With a few eggs, I mean less than 20% of your marketing resources.
 
