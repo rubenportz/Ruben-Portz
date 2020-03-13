@@ -14,6 +14,9 @@ In this essay, I want to touch upon a few frameworks that I've come across and t
 
 <h2>Three attributes to get the job done</h2>
 The first framework I've based on the jobs-to-be-done concept. This traditional framework forces you to look at a product from the perspective of the user. The key question the theory asks is "What job your product is hired to do?".
+
+This might be a little bit vague, so it alternatively think of it as a problem, task, goal or objective a person is trying to accomplish or resolve.
+
 It forces you to think in the first principles of product design and stay completely neutral of any solutions. Henry Ford didn't think about the "job" as a "faster horse" but as "getting from Point A to Point B as quickly as possible." Your product is hired to fulfil a job which can be defined in a job statement.
 
 <center><i>Job Statement = Action + object + context</i></center>
