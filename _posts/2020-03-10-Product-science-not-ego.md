@@ -99,4 +99,4 @@ In this series of essays I've now touched upon the relationship between a produc
 <a href="https://rubenportz.com/Solve-your-users-problem/">Phase 1: Solve your user’s problem</a><br>
 <b>Phase 2: Product science not ego</b><br>
 <a href="https://rubenportz.com/The-power-law-of-distribution/">Phase 3: The power law of distribution</a><br>
-Phase 4: A framework for startup pricing (coming soon)<br>
+<a href="https://rubenportz.com/A-framework-for-startup-pricing/">Phase 4: A framework for startup pricing</a><br>
