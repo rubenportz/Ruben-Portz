@@ -46,3 +46,6 @@ It is thus vital to make product decisions with the overall pricing strategy and
 <a href="https://rubenportz.com/Product-science-not-ego/">Phase 2: Product science not ego</a><br>
 <a href="https://rubenportz.com/The-power-law-of-distribution/">Phase 3: The power law of distribution</a><br>
 <b>Phase 4: A framework for startup pricing</b><br>
+
+Reference:
+Iveroth, E., Westelius, A., Petri, C., Olve, N., Cöster, M., & Nilsson, F. (2013). How to Differentiate by Price : Proposal for a Five-dimensional Model.
