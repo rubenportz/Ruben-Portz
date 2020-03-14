@@ -64,4 +64,4 @@ Once you’ve implemented your user feedback engine and have iterated through se
 <b>Phase 1: Solve your user’s problem</b><br>
 <a href="https://rubenportz.com/Product-science-not-ego/">Phase 2: Product science not ego</a><br>
 <a href="https://rubenportz.com/The-power-law-of-distribution/">Phase 3: The power law of distribution</a><br>
-Phase 4: A framework for startup pricing (coming soon)<br>
+<a href="https://rubenportz.com/A-framework-for-startup-pricing/">Phase 4: A framework for startup pricing</a><br>
