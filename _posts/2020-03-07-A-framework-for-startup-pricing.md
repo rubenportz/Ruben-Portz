@@ -1,6 +1,6 @@
 ---
 title: A framework for startup pricing
-date: 2020-03-13 10:10:00
+date: 2020-03-07 10:10:00
 category: [startup, MVP, Growth]
 ---
 For many, startup pricing is guesswork. Without a framework that minimizes biases, I've seen founders either copy competitors or simply estimate a price. In some cases, it even gets formed into a holy grail to never be touched or discussed again.
