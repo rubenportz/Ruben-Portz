@@ -35,3 +35,5 @@ The process of executing but also the journey that you’re on.
 Enjoy the voyage.
 
 Not the serendipitous moments.
+
+Once you believe in the process, the moments will follow.
