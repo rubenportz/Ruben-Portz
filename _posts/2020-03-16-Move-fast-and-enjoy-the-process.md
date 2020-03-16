@@ -16,24 +16,24 @@ Or even worse, nobody seems to care.
 
 But the interesting part is that if you keep going at it during those moments and follow a process of testing, researching and trying out a range of new things - that little successes start appearing.
 
-This is what I’ve seen again and again.
+This is what I’ve started to notice during my first years in the startup world.
 
 Out of nowhere, you’ll experience some kind of response. A little bit of engagement. The worst looking ad performance the best. The strangest social post gets the most traffic. The most unlikely user profile gets back extremely positively.
 
 Enough to make you zoom in on that tactic, person or channel and understand why it is happening and whether it is a good opportunity to do more.
 
-If you work at a startup you have probably felt this way.
+If you work at a startup you have probably felt this way too.
 
 Some call it luck, serendipity, or a fluke.
 
-But it’s more than that.
+But I think it’s more than that.
 
-You’ve got to believe in your process.
+We’ve got to believe in our process.
 
-The process of executing but also the journey that you’re on. 
+The process of executing but also the journey that we’re on. 
 
 Enjoy the voyage.
 
 Not the serendipitous moments.
 
-Once you believe in the process, the moments will follow.
+Once we believe in the process, the moments will follow.
